@@ -1,0 +1,12 @@
+.panel-grey > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #939393 0%, #4F4F4F 100%);
+  background-image:         linear-gradient(to bottom, #939393 0%, #4F4F4F 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#939393', endColorstr='#4F4F4F', GradientType=0);
+  background-repeat: repeat-x;
+}
+h1{
+    font: xx-large;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}

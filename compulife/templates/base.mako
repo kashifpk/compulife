@@ -1,7 +1,7 @@
 <%!
 from compulife.auth import is_allowed
 
-auth_links = [('home', 'Home'), ('contact', 'Contact Us'),
+auth_links = [('home', 'Home'),('services','Services'),  ('contact', 'Contact Us'),
               ('admin.admin_index', 'Admin Section'), ('pyckauth_manager', 'Auth Manager')]
 
 %>
@@ -20,7 +20,7 @@ auth_links = [('home', 'Home'), ('contact', 'Contact Us'),
   
   <!-- Custom CSS -->
   <link rel="stylesheet" href="${request.static_url('compulife:static/pyck.css')}" type="text/css" media="screen" charset="utf-8" />
-  
+  <link rel="stylesheet" href="${request.static_url('compulife:static/compulife.css')}" type="text/css" media="screen" charset="utf-8" />
   <!-- Dojo -->
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.3/dojo/resources/dojo.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.3/dijit//themes/claro/claro.css" type="text/css" charset="utf-8" />
@@ -93,7 +93,7 @@ claro
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="${request.route_url('home')}"><img src="${request.static_url('compulife:static/pyck-small.png')}"  alt="pyck" /></a>
+      <a class="navbar-brand" href="${request.route_url('home')}"><img src="${request.static_url('compulife:static/compulife_logo.png')}"  alt="pyck" /></a>
     </div>
 
     

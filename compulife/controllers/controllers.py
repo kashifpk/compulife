@@ -14,6 +14,12 @@ def my_view(request):
     return {'one': one, 'project': 'compulife'}
 
 
+@view_config(route_name='services', renderer='services.mako')
+def my_services(request):
+    return {}
+
+
+
 @view_config(route_name='contact', renderer="contact.mako")
 def contact_form(request):
 

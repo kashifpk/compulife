@@ -1,7 +1,7 @@
 <%inherit file="base.mako"/>
 
 <%def name="title()">
-PyCK Project - Contact Us
+CompuLife - Contact Us
 </%def>
 
 <div>

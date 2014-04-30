@@ -1,7 +1,7 @@
 <%inherit file="base.mako"/>
 
 <%def name="title()">
-PyCK Web Development Framework
+Compulife
 </%def>
 
 <%def name="header()">
