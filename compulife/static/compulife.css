@@ -12,12 +12,29 @@
   background-repeat: repeat-x;
 }
 
+.panel-grey > .panel-footer {
+  background-image: -webkit-linear-gradient(top, #111010 0%, #1E1B1B 100%);
+  background-image:         linear-gradient(to bottom, #111010 0%, #1E1B1B 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#111010', endColorstr='#1E1B1B', GradientType=0);
+  background-repeat: repeat-x;
+  color:#fff;
+}
 
-h1{
-    font: xx-large;
+hr{
+  background-color: #141212;
+  border-color: #141212;
+  
+}
+.links > a {
+  color:#7F7B7B;
+}
+
+
+.side_heading{
+    
     font-size: 18px;
     font-family: sans-serif;
-    color: white;
+    color: #821717;
 }
 .nav-right{    
   font: 15px;

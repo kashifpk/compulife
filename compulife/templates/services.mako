@@ -165,13 +165,14 @@ installed OS and applications on the computer. We develop custom versions of lin
 </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <div class="panel panel-maroon">
+        <h1>&nbsp;</h1>
+        <div class="panel panel-grey">
       <!-- Default panel contents -->
-            <div class="panel-heading"><h1>Navigate</h1></div>
+            <div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
                     <div class="panel-body">
                         <ul class="links">
                             <li>
-                              <a href="http://pyck.compulife.com.pk">Home</a>
+                              <a href="${request.route_url('home')}">Home</a><br/>
                             </li>
                             <li>
                               <a href="http://packages.python.org/PyCK/">Services</a>
@@ -188,28 +189,58 @@ installed OS and applications on the computer. We develop custom versions of lin
                           </ul>
                     </div>
         </div>
+        <hr>
+            <h1>&nbsp;</h1>
+        <div class="panel panel-grey">
+      <!-- Default panel contents -->
+            <div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
+                    <div class="panel-body">
+                        <ul class="links">
+                            <li>
+                              <a href="${request.route_url('home')}">Home</a><br/>
+                            </li>
+                            <li>
+                              <a href="http://packages.python.org/PyCK/">Services</a>
+                            </li>
+                            <li>
+                              <a href="http://pypi.python.org/pypi/PyCK">Open Source</a>
+                            </li>
+                            <li>
+                              <a href="irc://irc.freenode.net#pyck">People</a>
+                            </li>
+                            <li>
+                              <a href="irc://irc.freenode.net#pyck">Contact Us</a>
+                            </li>
+                          </ul>
+                    </div>
+        </div>
+        <hr>
         
 
 
                   
     </div>
 
-<div class="panel panel-default">
-  <div class="panel-body">
-    Panel content
-  </div>
-  <div class="panel-footer">Panel footer</div>
-  
-	<span style="float: right">
-		<img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" 
-alt="Powered by Google App Engine" />&nbsp;&nbsp;&nbsp;
-	</span>
-	<p>
-	<a href="http://code.google.com/appengine/">Google AppEngine</a>, 
-    <a href="http://www.pylonshq.com">Pylons</a> and 
-    <a href="http://www.python.org">Python</a> Powered.
-	<br />
-	Website Design by <a href="http://www.spyka.net">Free CSS Templates</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
 
+<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+    <div class="panel panel-grey">
+        
+          
+
+        <div class="panel-footer">
+  
+            <span style="float: right">
+            <img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" 
+    alt="Powered by Google App Engine" />&nbsp;&nbsp;&nbsp;
+        </span>
+        <p>
+        <a href="http://code.google.com/appengine/">Google AppEngine</a>, 
+        <a href="http://www.pyck.com">Pyck</a> and 
+        <a href="http://www.python.org">Python</a> Powered.
+        <br />
+        Website Design by <a href="http://www.spyka.net">Free CSS Templates</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
+        </div>
+    </div>
 </div>
+
 
