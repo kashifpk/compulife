@@ -19,6 +19,10 @@ def my_services(request):
     return {}
 
 
+@view_config(route_name='people', renderer='people.mako')
+def people_peeps(request):
+    return {}
+
 
 @view_config(route_name='contact', renderer="contact.mako")
 def contact_form(request):

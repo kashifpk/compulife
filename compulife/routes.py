@@ -8,6 +8,7 @@ def application_routes(config):
 
     config.add_route('home', '/')
     config.add_route('services', '/services')
+    config.add_route('people', '/people')
     config.add_route('contact', '/contact')
 
     config.add_route('pyckauth_login', '/login')

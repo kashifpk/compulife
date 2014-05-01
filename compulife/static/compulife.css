@@ -4,9 +4,28 @@
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#939393', endColorstr='#4F4F4F', GradientType=0);
   background-repeat: repeat-x;
 }
+
+.panel-maroon > .panel-heading {
+  background-image: -webkit-linear-gradient(top, #0F0C0C 0%, #931414 100%);
+  background-image:         linear-gradient(to bottom, #0F0C0C0%, #93141 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0F0C0C', endColorstr='#93141', GradientType=0);
+  background-repeat: repeat-x;
+}
+
+
 h1{
     font: xx-large;
     font-size: 18px;
     font-family: sans-serif;
     color: white;
 }
+.nav-right{    
+  font: 15px;
+  color:white;
+  float: left;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+

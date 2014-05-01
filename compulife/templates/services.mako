@@ -165,7 +165,51 @@ installed OS and applications on the computer. We develop custom versions of lin
 </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    side links
-          
-           
+        <div class="panel panel-maroon">
+      <!-- Default panel contents -->
+            <div class="panel-heading"><h1>Navigate</h1></div>
+                    <div class="panel-body">
+                        <ul class="links">
+                            <li>
+                              <a href="http://pyck.compulife.com.pk">Home</a>
+                            </li>
+                            <li>
+                              <a href="http://packages.python.org/PyCK/">Services</a>
+                            </li>
+                            <li>
+                              <a href="http://pypi.python.org/pypi/PyCK">Open Source</a>
+                            </li>
+                            <li>
+                              <a href="irc://irc.freenode.net#pyck">People</a>
+                            </li>
+                            <li>
+                              <a href="irc://irc.freenode.net#pyck">Contact Us</a>
+                            </li>
+                          </ul>
+                    </div>
+        </div>
+        
+
+
+                  
     </div>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    Panel content
+  </div>
+  <div class="panel-footer">Panel footer</div>
+  
+	<span style="float: right">
+		<img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" 
+alt="Powered by Google App Engine" />&nbsp;&nbsp;&nbsp;
+	</span>
+	<p>
+	<a href="http://code.google.com/appengine/">Google AppEngine</a>, 
+    <a href="http://www.pylonshq.com">Pylons</a> and 
+    <a href="http://www.python.org">Python</a> Powered.
+	<br />
+	Website Design by <a href="http://www.spyka.net">Free CSS Templates</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
+
+</div>
+
