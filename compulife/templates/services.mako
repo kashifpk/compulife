@@ -165,31 +165,8 @@ installed OS and applications on the computer. We develop custom versions of lin
 </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <h1>&nbsp;</h1>
-        <div class="panel panel-grey">
-      <!-- Default panel contents -->
-            <div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
-                    <div class="panel-body">
-                        <ul class="links">
-                            <li>
-                              <a href="${request.route_url('home')}">Home</a><br/>
-                            </li>
-                            <li>
-                              <a href="http://packages.python.org/PyCK/">Services</a>
-                            </li>
-                            <li>
-                              <a href="http://pypi.python.org/pypi/PyCK">Open Source</a>
-                            </li>
-                            <li>
-                              <a href="irc://irc.freenode.net#pyck">People</a>
-                            </li>
-                            <li>
-                              <a href="irc://irc.freenode.net#pyck">Contact Us</a>
-                            </li>
-                          </ul>
-                    </div>
-        </div>
-        <hr>
+        
+        
             <h1>&nbsp;</h1>
         <div class="panel panel-grey">
       <!-- Default panel contents -->
@@ -200,26 +177,53 @@ installed OS and applications on the computer. We develop custom versions of lin
                               <a href="${request.route_url('home')}">Home</a><br/>
                             </li>
                             <li>
-                              <a href="http://packages.python.org/PyCK/">Services</a>
+                              <a href="${request.route_url('services')}">Services</a><br/>
                             </li>
                             <li>
-                              <a href="http://pypi.python.org/pypi/PyCK">Open Source</a>
+                              <a href="${request.route_url('people')}">People</a><br/>
                             </li>
                             <li>
-                              <a href="irc://irc.freenode.net#pyck">People</a>
-                            </li>
-                            <li>
-                              <a href="irc://irc.freenode.net#pyck">Contact Us</a>
+                              <a href="${request.route_url('contact')}">Contact Us</a><br/>
                             </li>
                           </ul>
                     </div>
         </div>
         <hr>
+            <h1>&nbsp;</h1>
+        <div class="panel panel-grey">
+      <!-- Default panel contents -->
+            <div class="panel-heading"><h1 class="side_heading">About Us</h1></div>
+                    <div class="panel-body">
+                        CompuLife is an I.T solutions company primarily focusing on open-source sofware and web development and support. 
+                    </div>
+        </div>
+        <hr>
+            <h1>&nbsp;</h1>
+        <div class="panel panel-grey">
+      <!-- Default panel contents -->
+            <div class="panel-heading"><h1 class="side_heading">News</h1></div>
+                    <div class="panel-body">
+                        November 5, 2010. New site design.
+                    </div>
+        </div>
+    <hr>
+            <h1>&nbsp;</h1>
+        <div class="panel panel-grey">
+      <!-- Default panel contents -->
+            <div class="panel-heading"><h1 class="side_heading">Search</h1></div>
+                    <div class="panel-body">
+                        <p>
+                                <input type="text" size="24" value="" name="s" class="s" />
+                                <input type="submit" class="searchsubmit formbutton" value="Search" />
+                            </p>
+                    </div>
+        </div>
         
 
 
                   
     </div>
+    
 
 
 <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
