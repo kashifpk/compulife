@@ -18,9 +18,28 @@ def my_view(request):
 def my_services(request):
     return {}
 
+@view_config(route_name='opensource', renderer='opensource.mako')
+def open_s(request):
+    return {}
+
 
 @view_config(route_name='people', renderer='people.mako')
 def people_peeps(request):
+    return {}
+
+
+@view_config(route_name='dns_ng', renderer='dns_ng.mako')
+def dns(request):
+    return {}
+
+
+@view_config(route_name='android_sms', renderer='android_sms.mako')
+def android_sms(request):
+    return {}
+
+
+@view_config(route_name='pyutills', renderer='pyutills.mako')
+def pyutill(request):
     return {}
 
 

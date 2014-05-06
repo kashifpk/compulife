@@ -9,26 +9,19 @@ CompuLife - Services we offer
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
 
 
-<h1>DNS-NG</h1>
+<h1>PyUtils</h1>
 <p style="size: 14px; color: #352C2C;">
-DNS-NG is a simplified DNS server that uses a backend DNS server to store DNS records (redirects).
-For requests that don't have matching records in the DB, it contacts another DNS server to fetch
-their result.<p>
 
-<p class="description">
-This script also includes a Qt4 User Interface for managing the DNS server. The DNS server itself
-is based on the twisted framework and uses sqlalchmey for database ORM. Requirements for the script
-are:
-
-<ul>
-    <li> python </li>
-    <li> python-qt4 </li>
-    <li> twisted-python </li>
-    <li> sqlalchemy </li>
-</ul>
+A collection of python utility modules aimed for developers. 
 </p>
-</div>
-<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+Download <a href="/downloads/pyutils-0.4.1.tar.gz">PyUtils-0.4.1</a>
+
+If you want to contribute to the code, the git repository is at:<br />
+<br />
+<a href="https://github.com/kashifpk/pyutils">https://github.com/kashifpk/pyutils</a>
+<br />
+
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         
         
             <h1>&nbsp;</h1>
@@ -37,9 +30,10 @@ are:
             <div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
                     <div class="panel-body">
                         <ul class="list-group">
-                            <li class="list-group-item"><a href="${request.route_url('dns_ng')}">DNS NG</a></li>
-                            <li class="list-group-item"><a href="${request.route_url('android_sms')}">Android sms exporter</a></li>
-                            <li class="list-group-item"><a href="${request.route_url('pyutills')}">Python Utility Modules</a></li>
+                            <li class="list-group-item"><a href="/oss/dns_ng">DNS-NG</a></li>
+                            <li class="list-group-item"><a href="/oss/android_sms_exporter">Android SMS Exporter</a></li>
+                            <li class="list-group-item"><a href="/oss/svn_to_git">SVN to Git</a></li>
+                            <li class="list-group-item"><a href="/oss/pyutils">Python Utility Modules</a></li>
                           </ul>
                     </div>
         </div>
@@ -65,8 +59,11 @@ are:
                                 <input type="submit" class="searchsubmit formbutton" value="Search" />
                             </p>
                     </div>
-		</div>
-</div>
+        </div>
+        
+                  
+    </div>
+    
 
 
 <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
@@ -89,6 +86,5 @@ are:
         </div>
     </div>
 </div>
-
 
 

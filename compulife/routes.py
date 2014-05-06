@@ -8,8 +8,11 @@ def application_routes(config):
 
     config.add_route('home', '/')
     config.add_route('services', '/services')
-    config.add_route('opensource' , '/opensource')
+    config.add_route('opensource', '/opensource')
     config.add_route('people', '/people')
+    config.add_route('dns_ng', '/dns_ng')
+    config.add_route('android_sms', '/android_sms')
+    config.add_route('pyutills', '/pyutills')
     config.add_route('contact', '/contact')
 
     config.add_route('pyckauth_login', '/login')

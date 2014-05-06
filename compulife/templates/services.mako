@@ -6,11 +6,14 @@ CompuLife - Services we offer
 
 
 
+<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+    <div class="panel panel-grey">
+    <div class="panel-heading"><h1 style="color:white;">Our Services</h1></div>
+    </div>
+</div>
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
-<h1>Our Services</h1>
-
 <div class="panel panel-grey">
-    <div class="panel-heading"><h1>Software Development</h1></div>
+    <div class="panel-heading"><h1 style="color:white;">Software Development</h1></div>
     
     <div class="panel-body">
     We provide high-quality, innovative and customized software solutions to meet your requirements. Providing user-friendly solutions
