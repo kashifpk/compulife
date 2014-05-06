@@ -25,17 +25,7 @@
         </div>
     </div>
         
-    <hr>
-    <h1>&nbsp;</h1>
-    <div class="panel panel-grey">
-        <!-- Default panel contents -->
-        <div class="panel-heading"><h1 class="side_heading">Search</h1></div>
-        <div class="panel-body">
-            <p>
-            <input type="text" size="24" value="" name="s" class="s" />
-            <input type="submit" class="searchsubmit formbutton" value="Search" />
-            </p>
-        </div>
-	</div>
+    
+	
 </div>
 </%def>

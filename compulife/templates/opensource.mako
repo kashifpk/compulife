@@ -6,6 +6,7 @@ CompuLife - Services we offer
 </%def>
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
+	<div class="greenwell well-lg">
 	<h1>Open Source Project</h1>
 	<p style="size: 14px; color: #352C2C;">
 	   
@@ -40,6 +41,7 @@ CompuLife - Services we offer
 		https://github.com/kashifpk/android_sms_exporter
 	</a>
 	</p>
+	</div>
 </div>
 
 ${OSL.oss_side_links()}

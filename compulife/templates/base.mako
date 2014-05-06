@@ -1,7 +1,7 @@
 <%!
 from compulife.auth import is_allowed
 
-auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensource') , ('people','People'), ('dns_ng','Dns_ng') , ('android_sms','Android_sms') , ('pyutills','Pyutills') , ('contact', 'Contact Us'),
+auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensource') , ('people','People'), ('contact', 'Contact Us'),
               ('admin.admin_index', 'Admin Section'), ('pyckauth_manager', 'Auth Manager')]
 
 %>

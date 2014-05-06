@@ -6,7 +6,8 @@ CompuLife - Services we offer
 </%def>
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
-	<h1>DNS-NG</h1>
+    <div class="greenwell well-lg">
+		<h1>DNS-NG</h1>
 	<p style="size: 14px; color: #352C2C;">
 	DNS-NG is a simplified DNS server that uses a backend DNS server to store DNS records (redirects).
 	For requests that don't have matching records in the DB, it contacts another DNS server to fetch
@@ -24,6 +25,7 @@ CompuLife - Services we offer
 		<li> sqlalchemy </li>
 	</ul>
 	</p>
+	</div>
 </div>
 
 ${OSL.oss_side_links()}
