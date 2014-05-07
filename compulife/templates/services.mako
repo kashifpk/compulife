@@ -12,7 +12,7 @@ CompuLife - Services we offer
    <br/>
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Software Development</h1>    
     <p>
     We provide high-quality, innovative and customized software solutions to meet your requirements. Providing user-friendly solutions
@@ -22,7 +22,7 @@ CompuLife - Services we offer
     </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Web Development and Designing</h1>
 <p>
 With over 5 years of experience developing and designing websites of varying natures; including e-commerce sites, portals, personal websites
@@ -32,7 +32,7 @@ Be it a static small site, a large dynamically controlled site, dynamically mana
 </div>
 <hr>
 
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Web Spiders/Crawlers</h1>
     
 <p>
@@ -42,7 +42,7 @@ Today such programs are used for a variety of marketting, research and other pur
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Custom Internet Data Scraping</h1>
 <p>
 The Internet contains a wealth of information and knowledge. The amount of information present on the Internet is so great that it is often impossible to manually
@@ -51,7 +51,7 @@ you want from the Internet effectively. No more do you need to move through ever
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Data Conversion and Manipulation</h1>
 <p>
 We specialize in migrating and converting data between different formats and databases. If you are looking to upgrade your legacy software system used in your
@@ -59,7 +59,7 @@ organization but don't want to loose all the data that took years to feed into t
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Search Engine Optimizations Research Tools</h1>
 <p>
 Getting a good place in search results of different search engines is one of the best marketting tricks you need on the web. Search Engine Optimization is a 
@@ -68,7 +68,7 @@ rankings.
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Survey Research Tools</h1>
 <p>
 We have vast experience managing different kind of surveys for various organizations, feeding all the results into the system and generating different analysis 
@@ -77,7 +77,7 @@ process in the field.
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Advanced Networking Services</h1>
 <p>
 Modern businesses rely more and more on electronic communications for their effective operation. Properly designed computer networks help businesses become more
@@ -85,7 +85,7 @@ and more productive. We provide advanced networking services like <b>Virtual Pri
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Expert Administration Services</h1>
 <p>
 With increasing IT infrastructure in any organization the proper administration of the resources become more and more important. Finding the technical expertise 
@@ -94,14 +94,14 @@ and administer many networks and servers remotely.
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Data Recovery</h1>
 <p>
 Data loss for any organization in most cases can be catastrophic. In many cases, this data can be recovered. We give you the hope that all is not lost.
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Computer Security and Penetration Testing</h1>
 <p>
 Computer security is one of the most important areas in any organization's IT infrastructure. You don't just create a great house without any doors or locks inviting
@@ -111,7 +111,7 @@ to compromise your network. We provide professional penetration testing services
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Forensics Analysis</h1>
 <p>
 Once your network has been breached, getting to know how it was breached and what the attacker has done with your network after compromising it is very important.
@@ -120,7 +120,7 @@ We offer professional forensic analysis services to help you track down the hole
 </div>
 <hr>
     
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Open Source Support</h1>
 <p>
 
@@ -129,7 +129,7 @@ deployed all over the world. Most of these high quality products are free of cos
 </p>
 </div>
 <hr>
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1 style="color:white; size: 18px ;">Custom Linux Distributions and Live CD's</h1>
 <p>
 Linux is an open source, modern, feature-rich high quality operating system. Live Linux CDs allow you to boot and use your linux OS from the CD without effecting the
