@@ -10,7 +10,7 @@ CompuLife - Services we offer
 
 
 <h1>SVN To Git</h1>
-<p style="size: 14px; color: #352C2C;">
+<p>
 
 Small script aimed to run on an android phone with
 <a href="code.google.com/p/android-scripting/">SL4A (Scripting layer for Android)</a>

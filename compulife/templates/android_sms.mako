@@ -8,10 +8,10 @@ CompuLife - Services we offer
 
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
-		<div class="greenwell well-lg">
+		<div class="well well-lg">
 		
 				<h1>Android SMS Exporter</h1>
-				<p style="size: 14px; color: #352C2C;">
+				<p>
 				
 				Small script aimed to run on an android phone with
 				<a href="code.google.com/p/android-scripting/">SL4A (Scripting layer for Android)</a>

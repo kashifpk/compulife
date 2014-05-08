@@ -13,11 +13,14 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
   <title>${self.title()}</title>
   ${self.meta()}
   
+  <meta name="keywords" content="Compulife Pakistan Software Development Python PHP MySQL PostgreSQL SQLite IT Technology Computer Programming Open Source Linux" />
+    <meta name="description" content="OpenSource centered software development company focusing on providing practical solutions via open source technologies" />
   <link rel="shortcut icon" href="${request.static_url('compulife:static/favicon.ico')}" />
+  
   <!-- Bootstrap -->
   <link rel="stylesheet" href="${request.static_url('compulife:static/bootstrap/css/bootstrap.min.css')}">
   <link rel="stylesheet" href="${request.static_url('compulife:static/bootstrap/css/bootstrap-theme.min.css')}">
-  
+  <script src="${request.static_url('compulife:static/bootstrap/js/bootstrap.min.js')}"></script>
   <!-- Custom CSS -->
   <link rel="stylesheet" href="${request.static_url('compulife:static/pyck.css')}" type="text/css" media="screen" charset="utf-8" />
   <link rel="stylesheet" href="${request.static_url('compulife:static/compulife.css')}" type="text/css" media="screen" charset="utf-8" />
@@ -146,20 +149,13 @@ claro
 </%def>
 <%def name="footer()">
 <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
-    <div class="panel panel-grey">
-        <div class="panel-footer">
-  
-            <span style="float: right">
-            <img src="http://code.google.com/appengine/images/appengine-silver-120x30.gif" 
-    alt="Powered by Google App Engine" />&nbsp;&nbsp;&nbsp;
-        </span>
+    <div class="well well-lg">
+      
         <p>
-        <a href="http://code.google.com/appengine/">Google AppEngine</a>, 
-        <a href="http://www.pyck.com">Pyck</a> and 
+        <a href="http://pyck.compulife.com.pk/">Pyck</a> and 
         <a href="http://www.python.org">Python</a> Powered.
         <br />
-        Website Design by <a href="http://www.spyka.net">Free CSS Templates</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>
-        </div>
+         
     </div>
 </div>
 </%def>

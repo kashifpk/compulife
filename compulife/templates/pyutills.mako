@@ -9,9 +9,9 @@ CompuLife - Services we offer
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
 
-<div class="greenwell well-lg">
+<div class="well well-lg">
 <h1>PyUtils</h1>
-<p style="size: 14px; color: #352C2C;">
+<p>
 
 A collection of python utility modules aimed for developers. 
 </p>

@@ -43,6 +43,16 @@ def pyutill(request):
     return {}
 
 
+@view_config(route_name='people_kashif', renderer='people_kashif.mako')
+def people_k(request):
+    return {}
+
+
+@view_config(route_name='people_aliya', renderer='people_aliya.mako')
+def people_a(request):
+    return {}
+
+
 @view_config(route_name='contact', renderer="contact.mako")
 def contact_form(request):
 

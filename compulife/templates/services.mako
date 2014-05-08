@@ -1,5 +1,5 @@
 <%inherit file="base.mako"/>
-<%namespace name="OSL" file="oss_side_links.mako"/>
+
 <%def name="title()">
 CompuLife - Services we offer
 </%def>
@@ -13,7 +13,8 @@ CompuLife - Services we offer
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
 <div class="well well-lg">
-<h1 style="color:white; size: 18px ;">Software Development</h1>    
+<a name="SD"></a>
+<h1>Software Development</h1>    
     <p>
     We provide high-quality, innovative and customized software solutions to meet your requirements. Providing user-friendly solutions
     to our customers is our top priority. Whether you need a simple desktop utility or a complex server end software, we have the skills
@@ -23,6 +24,7 @@ CompuLife - Services we offer
 </div>
 <hr>
 <div class="well well-lg">
+<a name="WebD&D"></a>
 <h1 style="color:white; size: 18px ;">Web Development and Designing</h1>
 <p>
 With over 5 years of experience developing and designing websites of varying natures; including e-commerce sites, portals, personal websites
@@ -33,6 +35,7 @@ Be it a static small site, a large dynamically controlled site, dynamically mana
 <hr>
 
 <div class="well well-lg">
+<a name="WebS&C"></a>
 <h1 style="color:white; size: 18px ;">Web Spiders/Crawlers</h1>
     
 <p>
@@ -43,6 +46,7 @@ Today such programs are used for a variety of marketting, research and other pur
 </div>
 <hr>
 <div class="well well-lg">
+<a name="CIDS"></a>
 <h1 style="color:white; size: 18px ;">Custom Internet Data Scraping</h1>
 <p>
 The Internet contains a wealth of information and knowledge. The amount of information present on the Internet is so great that it is often impossible to manually
@@ -52,6 +56,7 @@ you want from the Internet effectively. No more do you need to move through ever
 </div>
 <hr>
 <div class="well well-lg">
+<a name="dcm"></a>
 <h1 style="color:white; size: 18px ;">Data Conversion and Manipulation</h1>
 <p>
 We specialize in migrating and converting data between different formats and databases. If you are looking to upgrade your legacy software system used in your
@@ -60,6 +65,7 @@ organization but don't want to loose all the data that took years to feed into t
 </div>
 <hr>
 <div class="well well-lg">
+<a name="SEO"></a>
 <h1 style="color:white; size: 18px ;">Search Engine Optimizations Research Tools</h1>
 <p>
 Getting a good place in search results of different search engines is one of the best marketting tricks you need on the web. Search Engine Optimization is a 
@@ -69,6 +75,7 @@ rankings.
 </div>
 <hr>
 <div class="well well-lg">
+<a name="SRT"></a>
 <h1 style="color:white; size: 18px ;">Survey Research Tools</h1>
 <p>
 We have vast experience managing different kind of surveys for various organizations, feeding all the results into the system and generating different analysis 
@@ -78,6 +85,7 @@ process in the field.
 </div>
 <hr>
 <div class="well well-lg">
+<a name="ANS"></a>
 <h1 style="color:white; size: 18px ;">Advanced Networking Services</h1>
 <p>
 Modern businesses rely more and more on electronic communications for their effective operation. Properly designed computer networks help businesses become more
@@ -86,6 +94,7 @@ and more productive. We provide advanced networking services like <b>Virtual Pri
 </div>
 <hr>
 <div class="well well-lg">
+<a name="EAS"></a>
 <h1 style="color:white; size: 18px ;">Expert Administration Services</h1>
 <p>
 With increasing IT infrastructure in any organization the proper administration of the resources become more and more important. Finding the technical expertise 
@@ -95,6 +104,7 @@ and administer many networks and servers remotely.
 </div>
 <hr>
 <div class="well well-lg">
+<a name="DR"></a>
 <h1 style="color:white; size: 18px ;">Data Recovery</h1>
 <p>
 Data loss for any organization in most cases can be catastrophic. In many cases, this data can be recovered. We give you the hope that all is not lost.
@@ -102,6 +112,7 @@ Data loss for any organization in most cases can be catastrophic. In many cases,
 </div>
 <hr>
 <div class="well well-lg">
+<a name="CSPT"></a>
 <h1 style="color:white; size: 18px ;">Computer Security and Penetration Testing</h1>
 <p>
 Computer security is one of the most important areas in any organization's IT infrastructure. You don't just create a great house without any doors or locks inviting
@@ -112,6 +123,7 @@ to compromise your network. We provide professional penetration testing services
 </div>
 <hr>
 <div class="well well-lg">
+<a name="FA"></a>
 <h1 style="color:white; size: 18px ;">Forensics Analysis</h1>
 <p>
 Once your network has been breached, getting to know how it was breached and what the attacker has done with your network after compromising it is very important.
@@ -121,6 +133,7 @@ We offer professional forensic analysis services to help you track down the hole
 <hr>
     
 <div class="well well-lg">
+<a name="OSS"></a>
 <h1 style="color:white; size: 18px ;">Open Source Support</h1>
 <p>
 
@@ -130,6 +143,7 @@ deployed all over the world. Most of these high quality products are free of cos
 </div>
 <hr>
 <div class="well well-lg">
+<a name="CLD"></a>
 <h1 style="color:white; size: 18px ;">Custom Linux Distributions and Live CD's</h1>
 <p>
 Linux is an open source, modern, feature-rich high quality operating system. Live Linux CDs allow you to boot and use your linux OS from the CD without effecting the
@@ -138,4 +152,31 @@ installed OS and applications on the computer. We develop custom versions of lin
 </div>
 
 </div>
-${OSL.oss_side_links()}
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+    <div class="panel panel-maroon">
+        <!-- Default panel contents -->
+		<div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
+        <div class="panel-body">
+            <ul class="list-group">
+                <li class="list-group-item"><a href="#SD">Software Development</a></li>
+                <li class="list-group-item"><a href="#WebD&D">Web Development & Designing</a></li>
+                <li class="list-group-item"><a href="#WebS&C">Web Spiders/Crawlers</a></li>
+                <li class="list-group-item"><a href="#CIDS">Custom Internet Data Scraping</a></li>
+                <li class="list-group-item"><a href="#dcm">Data Conversion and Manipulation</a></li>
+                <li class="list-group-item"><a href="#SEO">Search Engine Optimizations Research Tools</a></li>
+                <li class="list-group-item"><a href="#SRT">Survey Research Tools</a></li>
+                <li class="list-group-item"><a href="#ANS">Advanced Networking Services</a></li>
+                <li class="list-group-item"><a href="#EAS">Expert Administration Services</a></li>
+                <li class="list-group-item"><a href="#DR">Data Recovery</a></li>
+                <li class="list-group-item"><a href="#CSPT">Computer Security and Penetration Testing</a></li>
+                <li class="list-group-item"><a href="#FA">Forensics Analysis</a></li>
+                <li class="list-group-item"><a href="#OSS">Open Source Support</a></li>
+                <li class="list-group-item"><a href="#CLD">Custom Linux Distributions and Live CD'</a></li>
+            </ul>
+        </div>
+    </div>
+           
+	
+</div>
+

@@ -6,8 +6,8 @@
 		<div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
         <div class="panel-body">
             <ul class="list-group">
-                <li class="list-group-item"><a href="">Kashif Iftikhar</a></li>
-                <li class="list-group-item"><a href="">Aliya Zafar</a></li>
+                <li class="list-group-item"><a href="${request.route_url('people_kashif')}">Kashif Iftikhar</a></li>
+                <li class="list-group-item"><a href="${request.route_url('people_aliya')}">Aliya Zafar</a></li>
             </ul>
         </div>
     </div>

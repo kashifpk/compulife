@@ -13,7 +13,7 @@ CompuLife - Services we offer
         </p>
     </div>
 
-    <div class="greenwell well-lg">
+    <div class="well well-lg">
         <h1>ALIYA ZAFAR</h1>
         <p>
             Web developer
