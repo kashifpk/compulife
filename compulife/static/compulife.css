@@ -98,3 +98,20 @@ p > .heading_description{
 a, a:hover, a:active, a:visited {
   color: #BA3232;
 }
+
+div#myCarousel {
+  height: 150px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 16pt;
+}
+
+div.item {
+  text-align: center;
+}
+
+a.carousel-control {
+  font-size: 36pt;
+  color: #A5A5A5;
+}

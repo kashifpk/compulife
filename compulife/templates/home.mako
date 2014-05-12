@@ -1,5 +1,15 @@
 <%inherit file="base.mako"/>
 
+<%def name="head()">
+<script>
+	var dojoConfig = {
+		async: 1,
+		packages: [
+			{ name: "bootstrap", location: "${request.static_url('compulife:static/dojo-bootstrap')}" }
+		]
+	};
+</script>
+</%def>
 
 <%def name="title()">
 Compulife
@@ -7,8 +17,46 @@ Compulife
 
 <%def name="header()">
   <div id="top" style="text-align: center">
-    <br /><br />
-    <img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/>
+	
+    <div id="myCarousel" class="carousel slide visible-md visible-lg">
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+		  <div class="active item">
+			<h1>
+			<img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
+			Item Active  
+			</h1>
+			
+		  </div>
+		  <div class="item">
+			
+			<h1>
+			  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
+			  Item 1
+			</h1>
+			
+		  </div>
+		  <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
+			Item 2
+			</h1>
+		  </div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+		  <br />
+		  &lsaquo;
+		  </a>
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">
+		  <br />
+		  &rsaquo;
+		</a>
+	</div>
+	<div class="visible-xs visible-sm">
+	  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
+	</div>
+    
   </div>
   ${self.main_menu()}
   
@@ -96,8 +144,15 @@ Compulife
     to respond to the high expectations of our customers shows its dedication and 
     engineering excellence.</p>
    </div>
-   
-  
+
+
+
+<script type="text/javascript" charset="utf-8">
+    
+    require([ 'dojo/query', 'bootstrap/Carousel' ], function(q){
+        q('#myCarousel').carousel();
+    });
+</script>
 
   
   

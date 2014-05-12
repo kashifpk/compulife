@@ -12,7 +12,7 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
   
   <title>${self.title()}</title>
   ${self.meta()}
-  
+  ${self.head()}
   <meta name="keywords" content="Compulife Pakistan Software Development Python PHP MySQL PostgreSQL SQLite IT Technology Computer Programming Open Source Linux" />
     <meta name="description" content="OpenSource centered software development company focusing on providing practical solutions via open source technologies" />
   <link rel="shortcut icon" href="${request.static_url('compulife:static/favicon.ico')}" />
@@ -51,6 +51,7 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
 </body>
 </html>
 
+<%def name="head()"></%def>
 <%def name="title()">The PyCK Web Application Development Framework</%def>
 
 <%def name="meta()">
