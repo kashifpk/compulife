@@ -91,13 +91,9 @@ claro
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="${request.route_url('home')}"><img src="${request.static_url('compulife:static/compulife_logo.png')}"  alt="pyck" /></a>
+      <a class="navbar-brand" href="${request.route_url('home')}" style="vertical-align: top; padding-bottom: 10px;">
+		<img src="${request.static_url('compulife:static/compulife_logo.png')}"  alt="pyck" /><br />
+	  </a>
     </div>
 
     
