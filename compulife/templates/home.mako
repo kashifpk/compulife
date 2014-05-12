@@ -16,6 +16,7 @@ Compulife
 </%def>
 
 <%def name="header()">
+  ${self.main_menu()}
   <div id="top" style="text-align: center">
 	
     <div id="myCarousel" class="carousel slide visible-md visible-lg">
@@ -23,26 +24,63 @@ Compulife
 		<div class="carousel-inner">
 		  <div class="active item">
 			<h1>
-			<img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
-			Item Active  
+              	<img src="${request.static_url('compulife:static/sql.png')}"  alt="pyck"/><br />
+			 
 			</h1>
 			
 		  </div>
 		  <div class="item">
 			
 			<h1>
-			  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
-			  Item 1
+			  <img src="${request.static_url('compulife:static/python-logo.png')}"  alt="pyck"/><br />
+			  
 			</h1>
 			
 		  </div>
 		  <div class="item">
 			<h1>
-			<img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
-			Item 2
+			<img src="${request.static_url('compulife:static/Android-Logo.png')}"  alt="pyck"/><br />
+		  
+			</h1>
+		  </div>
+          <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/linux-logo.png')}"  alt="pyck"/><br />
+			
+			</h1>
+		  </div>
+          <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/postgre.png')}"  alt="pyck"/><br />
+			
+			</h1>
+		  </div>
+          <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/qt.png')}"  alt="pyck"/><br />
+			
+			</h1>
+		  </div>
+          <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/php-logo.png')}"  alt="pyck"/><br />
+			
+			</h1>
+		  </div>
+          <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/pylons-positive.png')}"  alt="pyck"/><br />
+			
+			</h1>
+		  </div>
+          <div class="item">
+			<h1>
+			<img src="${request.static_url('compulife:static/media_raspberry_pi.png')}"  alt="pyck"/><br />
+			
 			</h1>
 		  </div>
 		</div>
+        
 		<!-- Carousel nav -->
 		<a class="carousel-control left" href="#myCarousel" data-slide="prev">
 		  <br />
@@ -58,7 +96,7 @@ Compulife
 	</div>
     
   </div>
-  ${self.main_menu()}
+
   
   
 </%def>
