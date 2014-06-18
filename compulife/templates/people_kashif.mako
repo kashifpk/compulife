@@ -49,7 +49,68 @@ skills = [
             {'title': 'Python', 'class': 'info'},
             {'title': 'C/C++', 'class': 'default'},
             {'title': 'Ruby', 'class': 'danger'},
+            {'title': 'Visual Basic', 'class': 'warning'},
+            {'title': 'Gambas', 'class': 'success'},
+            {'title': 'Java', 'class': 'info'},
+            {'title': 'XML', 'class': 'default'},
+            {'title': 'SGML', 'class': 'warning'},
+            {'title': 'UML', 'class': 'success'},
             
+                ]
+    },
+    {
+        'title': 'DataBases & Related',
+        'items': [
+            {'title': 'SQLAlchemy', 'class': 'info'},
+            {'title': 'PostgreSQL', 'class': 'default'},
+            {'title': 'MySQL', 'class': 'danger'},
+            {'title': 'SQLite', 'class': 'warning'},
+            {'title': 'SQL Server', 'class': 'success'},
+            {'title': 'Oracle', 'class': 'info'},
+            {'title': 'FoxPro', 'class': 'default'},
+            {'title': 'MS Access', 'class': 'warning'},
+            {'title': 'DBase', 'class': 'success'},
+            
+                ]
+    },
+    {
+        'title': 'Mobile Development',
+        'items': [
+            {'title': 'PyS60 (Python for Symbian Series 60 Devices)', 'class': 'info'},
+            {'title': 'PySide/PyQT (For new Nokia Linux phones like N900 with Maemo or Meego OS)', 'class': 'default'},
+            {'title': 'SL4A (Scripting Layer for Android)', 'class': 'danger'},
+            
+                ]
+    },
+    {
+        'title': 'Operating System',
+        'items': [
+            {'title': 'Linux/Unix (Redhat, Fedora, Slackware, Debian, Ubuntu, Kubuntu & many other derived distros) ', 'class': 'success'},
+            {'title': 'FreeBSD', 'class': 'default'},
+            {'title': 'Microsoft Windows (3.x, 9x, 2000, XP, 2003, Vista', 'class': 'warning'},
+            
+                ]
+    },
+        {
+        'title': 'Project Management Related',
+        'items': [
+            {'title': 'Source Code Control Systems (Subversion, Mercurial, Git) with exprience in working with and managing distributed source code repositories', 'class': 'info'},
+            {'title': 'Documentation Tools - Sphinx (Documentation generation using reStructuredText)', 'class': 'danger'},
+            {'title': 'Automated Testing using webtest, unittest and nose', 'class': 'info'},
+            
+                ]
+    },
+    {
+        'title': 'Networking & Administration',
+        'items': [
+            {'title': 'Linux Installation, configuration and Networking setup', 'class': 'success'},
+            {'title': 'Linux VPN setups', 'class': 'default'},
+            {'title': 'Linux administration including services like DNS, DHCP, HTTP, FTP, SSH and others', 'class': 'warning'},
+            {'title': 'Linux Based Firewall and IDS configuration', 'class': 'success'},
+            {'title': 'Security Assessment', 'class': 'info'},
+            {'title': 'Apache Web Server', 'class': 'default'},
+            {'title': 'Samaba File and Print Sharing Server for Linux', 'class': 'warning'},
+            {'title': 'Squid Web Proxy Cache', 'class': 'success'},
                 ]
     },
 ]
@@ -93,80 +154,9 @@ CompuLife - Profile - Kashif Iftikhar
                     </div>
                 %endfor
 
-            
-            <a name="PL"></a>
-            <h1 class="side_heading">Programming Languages</h1>
-                <ul class="list-group">
-                    <li class="list-group-item">Python</li>
-                    <li class="list-group-item">C/C++</li>
-                    <li class="list-group-item">Visual Basic</li>
-                    <li class="list-group-item">Ruby</li>
-                    <li class="list-group-item">Gambas</li>                    
-                    <li class="list-group-item">Java</li>                    
-                    <li class="list-group-item">XML</li>
-                    <li class="list-group-item">SGML</li>
-                    <li class="list-group-item">UML</li>
-                </ul>
-            </div>
-            
-            <div class="panel-body">
-                <a name="DBR"></a>
-            <h1 class="side_heading">Databases &amp; Related </h1>
-                 <ul class="list-group">
-                    <li class="list-group-item">SQLAlchemy (ORM and more for working with databases)</li>
-                    <li class="list-group-item">PostgreSQL</li>
-                    <li class="list-group-item">MySQL</li>
-                    <li class="list-group-item">SQLite</li>
-                    <li class="list-group-item">SQL Server</li>
-                    <li class="list-group-item">Oracle</li>
-                    <li class="list-group-item">FoxPro</li>
-                    <li class="list-group-item">MS Access</li>
-                    <li class="list-group-item">DBase</li>
-                 </ul>
-             </div>
-            
-            <div class="panel-body">
-                <a name="MD"></a>
-            <h1 class="side_heading">Mobile Development </h1>
-                 <ul class="list-group">
-                    <li class="list-group-item">PyS60 (Python for Symbian Series 60 Devices)</li>
-                    <li class="list-group-item">PySide/PyQT (For new Nokia Linux phones like N900 with Maemo or Meego OS)</li>
-                    <li class="list-group-item">SL4A (Scripting Layer for Android)</li>
-                 </ul>
-            </div>
-            <div class="panel-body">
-                <a name="OS"></a>
-            <h1 class="side_heading">Operating Systems</h1>
-                 <ul class="list-group">
-                     <li class="list-group-item">Linux/Unix (Redhat, Fedora, Slackware, Debian, Ubuntu, Kubuntu &amp; many other derived distros) </li>
-                    <li class="list-group-item">FreeBSD</li>
-                    <li class="list-group-item">Microsoft Windows (3.x, 9x, 2000, XP, 2003, Vista)</li>
-                 </ul>
-            </div>
-            <div class="panel-body">
-                <a name="PMR"></a>
-            <h1 class="side_heading">Project Management Related</h1>
-                 <ul class="list-group">
-                    <li class="list-group-item">Source Code Control Systems (Subversion, Mercurial, Git) with exprience in working with and managing
-                distributed source code repositories</li>
-                <li class="list-group-item">Documentation Tools - Sphinx (Documentation generation using reStructuredText)</li>
-                <li class="list-group-item">Automated Testing using webtest, unittest and nose</li>
-                 </ul>
-            </div>
-            <div class="panel-body">
-                <a name="NA"></a>
-            <h1 class="side_heading">Networking &amp; Administration</h1>
-                 <ul class="list-group">
-                    <li class="list-group-item">Linux Installation, configuration and Networking setup. </li>
-                    <li class="list-group-item">Linux VPN setups</li>
-                    <li class="list-group-item">Linux administration including services like DNS, DHCP, HTTP, FTP, SSH and others</li>
-                    <li class="list-group-item">Linux Based Firewall and IDS configuration</li>
-                    <li class="list-group-item">Security Assessment</li>
-                    <li class="list-group-item">Apache Web Server</li>
-                    <li class="list-group-item">Samaba File and Print Sharing Server for Linux.</li>
-                    <li class="list-group-item">Squid Web Proxy Cache</li>
-                 </ul>
-            </div>
+
+       
+         
            
         
     </div>
@@ -389,7 +379,7 @@ CompuLife - Profile - Kashif Iftikhar
                     There are many more projects that are not listed for the sake of keeping this C.V reasonably short.
             </div>
         </div>
-
+    </div>
 </div>
 
 
@@ -401,14 +391,6 @@ CompuLife - Profile - Kashif Iftikhar
         <div class="panel-body">
             <ul class="list-group">
                 <li class="list-group-item"><a href="#skills">Skills</a></li>
-                <ul>
-                <li><a href="#PL">Programming Languages</a></li>
-                <li><a href="#DBR">Databases &amp; Related </a></li>
-                <li><a href="#MD">Mobile Development</a></li>
-                <li><a href="#OS">Operating Systems</a></li>
-                <li><a href="#PMR">Project Management Related</a></li>
-                <li><a href="#NA">Networking &amp; Administration</a></li>
-                </ul>
                 <li class="list-group-item"><a href="#C">Certifications</a></li>
                 <li class="list-group-item"><a href="#EP">Experience &amp; Projects</a></li>
                 
