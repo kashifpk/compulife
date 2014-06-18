@@ -1,107 +1,110 @@
 <%inherit file="base.mako"/>
 
-<%def name="head()">
-<script>
-	var dojoConfig = {
-		async: 1,
-		packages: [
-			{ name: "bootstrap", location: "${request.static_url('compulife:static/dojo-bootstrap')}" }
-		]
-	};
-</script>
-</%def>
-
 <%def name="title()">
 Compulife
 </%def>
 
 <%def name="header()">
   ${self.main_menu()}
-  <div id="top" style="text-align: center">
-	
-    <div id="myCarousel" class="carousel slide visible-md visible-lg">
-		<!-- Carousel items -->
-		<div class="carousel-inner">
-		  <div class="active item">
-			<h1>
-              	<img src="${request.static_url('compulife:static/sql.png')}"  alt="pyck"/><br />
-			 
-			</h1>
-			
-		  </div>
-		  <div class="item">
-			
-			<h1>
-			  <img src="${request.static_url('compulife:static/python-logo.png')}"  alt="pyck"/><br />
-			  
-			</h1>
-			
-		  </div>
-		  <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/Android-Logo.png')}"  alt="pyck"/><br />
+  <div id="top" class="visible-md visible-lg" style="text-align: center">
+	<div id="myCarousel" class="carousel slide">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="8"></li>
+	  </ol>
+	  
+	  <!-- Carousel items -->
+	  <div class="carousel-inner">
+		<div class="active item">
 		  
-			</h1>
+		  <div>
+			<img src="${request.static_url('compulife:static/sql.png')}"  alt="pyck"/>
 		  </div>
-          <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/linux-logo.png')}"  alt="pyck"/><br />
-			
-			</h1>
+		  <div class="carousel-caption">
+			<h3>Database Experts</h3>
+			<p>Yes we are :-P</p>
 		  </div>
-          <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/postgre.png')}"  alt="pyck"/><br />
-			
-			</h1>
-		  </div>
-          <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/qt.png')}"  alt="pyck"/><br />
-			
-			</h1>
-		  </div>
-          <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/php-logo.png')}"  alt="pyck"/><br />
-			
-			</h1>
-		  </div>
-          <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/pylons-positive.png')}"  alt="pyck"/><br />
-			
-			</h1>
-		  </div>
-          <div class="item">
-			<h1>
-			<img src="${request.static_url('compulife:static/media_raspberry_pi.png')}"  alt="pyck"/><br />
-			
-			</h1>
-		  </div>
+		  
+		  
 		</div>
+		<div class="item">
+		  
+		  <h1>
+			<img src="${request.static_url('compulife:static/python-logo.png')}"  alt="pyck"/><br />
+			
+		  </h1>
+		  
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/Android-Logo.png')}"  alt="pyck"/><br />
+		
+		  </h1>
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/linux-logo.png')}"  alt="pyck"/><br />
+		  
+		  </h1>
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/postgre.png')}"  alt="pyck"/><br />
+		  
+		  </h1>
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/qt.png')}"  alt="pyck"/><br />
+		  
+		  </h1>
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/php-logo.png')}"  alt="pyck"/><br />
+		  
+		  </h1>
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/pylons-positive.png')}"  alt="pyck"/><br />
+		  
+		  </h1>
+		</div>
+		<div class="item">
+		  <h1>
+		  <img src="${request.static_url('compulife:static/media_raspberry_pi.png')}"  alt="pyck"/><br />
+		  
+		  </h1>
+		</div>
+	  </div>
         
-		<!-- Carousel nav -->
-		<a class="carousel-control left" href="#myCarousel" data-slide="prev">
-		  <br />
-		  &lsaquo;
-		  </a>
-		<a class="carousel-control right" href="#myCarousel" data-slide="next">
-		  <br />
-		  &rsaquo;
-		</a>
+	  <!-- Carousel nav -->
+	  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
 	</div>
-	<div class="visible-xs visible-sm">
-	  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />
-	</div>
-    
   </div>
+<!--  <div class="visible-xs visible-sm" style="text-align: center;">-->
+<!--	  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/><br />-->
+<!--  </div>-->
 
   
   
 </%def>
   <div class="well well-lg">
-  <h1 style="size: 25px; font-stretch: wider; color:#C93A3A;">Introduction</h1>
+  <h1>Introduction</h1>
   <p>CompuLife is an I.T solutions company primarily focusing on
     open-source sofware and web development and support.</p>
    <br/>

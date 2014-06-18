@@ -13,26 +13,40 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
   <title>${self.title()}</title>
   ${self.meta()}
   ${self.head()}
-  <meta name="keywords" content="Compulife Pakistan Software Development Python PHP MySQL PostgreSQL SQLite IT Technology Computer Programming Open Source Linux" />
-    <meta name="description" content="OpenSource centered software development company focusing on providing practical solutions via open source technologies" />
+  
+  <meta name="viewport" content="width=device-width, user-scalable=no">
   <link rel="shortcut icon" href="${request.static_url('compulife:static/favicon.ico')}" />
   
+  <!-- JQuery -->
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
   <!-- Bootstrap -->
   <link rel="stylesheet" href="${request.static_url('compulife:static/bootstrap/css/bootstrap.min.css')}">
   <link rel="stylesheet" href="${request.static_url('compulife:static/bootstrap/css/bootstrap-theme.min.css')}">
+  
   <script src="${request.static_url('compulife:static/bootstrap/js/bootstrap.min.js')}"></script>
   <!-- Custom CSS -->
   <link rel="stylesheet" href="${request.static_url('compulife:static/pyck.css')}" type="text/css" media="screen" charset="utf-8" />
   <link rel="stylesheet" href="${request.static_url('compulife:static/compulife.css')}" type="text/css" media="screen" charset="utf-8" />
   <!-- Dojo -->
+  <script>
+	var dojoConfig = {
+		async: 1,
+		//packages: [
+		//	{ name: "bootstrap", location: "${request.static_url('compulife:static/dojo-bootstrap')}" }
+		//]
+	};
+  </script>
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.3/dojo/resources/dojo.css" type="text/css" charset="utf-8" />
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.8.3/dijit//themes/claro/claro.css" type="text/css" charset="utf-8" />
   <script src="//ajax.googleapis.com/ajax/libs/dojo/1.8.3/dojo/dojo.js" data-dojo-config="isDebug: true, async: true, parseOnLoad: true"></script>
   <script type="text/javascript">
-        require(['dojo/parser', 'dojo/domReady'],function(parser,ready){ready(function(){
+        require(['dojo/parser', 'dojo/domReady'],function(parser, ready){ready(function(){
           parser.parse();
           });});
   </script>
+  
+
 
 </head>
 
@@ -56,8 +70,8 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
 
 <%def name="meta()">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
-  <meta name="keywords" content="python web application" />
-  <meta name="description" content="PyCK web application" />
+  <meta name="keywords" content="Compulife Pakistan Software Development Python PHP MySQL PostgreSQL SQLite IT Technology Computer Programming Open Source Linux" />
+  <meta name="description" content="OpenSource centered software development company focusing on providing practical solutions via open source technologies" />
 </%def>
 
 <%def name="body_class()">
@@ -87,12 +101,12 @@ claro
 </%def>
     
 <%def name="main_menu()">
-<nav class="navbar navbar-inverse" role="navigation">
+<nav class="navbar navbar-default navbar-static-top visible-md visible-lg" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="${request.route_url('home')}" style="vertical-align: top; padding-bottom: 10px;">
-		<img src="${request.static_url('compulife:static/compulife_logo.png')}"  alt="pyck" /><br />
+      <a class="navbar-brand" href="${request.route_url('home')}">
+		<img style="vertical-align: top; padding-bottom: 5px; display: inline; width: 30px; height: 42px;" src="${request.static_url('compulife:static/compulife_logo.png')}"  alt="pyck" /><br />
 	  </a>
     </div>
 
@@ -119,7 +133,7 @@ claro
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
       </form>-->
-      <ul class="nav navbar-nav navbar-right">
+      <!--<ul class="nav navbar-nav navbar-right">
         <li>
         %if request.session.get('logged_in_user', None):
         <form style="display: inline" action="${request.route_url('pyckauth_logout')}" method="get">
@@ -132,16 +146,32 @@ claro
         %endif
         </li>
         
-      </ul>
+      </ul>-->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="visible-sm visible-xs" style="text-align: center;">
+  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}" alt="CompuLife Logo" /><br />
+<!--</div>-->
+<!--<div class="btn-group visible-sm visible-xs">-->
+
+    <button type="button" class="btn btn-default dropdown-toggle pull-right" data-toggle="dropdown">  
+       <span class="glyphicon glyphicon-th" style="font-size: 20pt;"></span>
+    </button>
+    <ul class="dropdown-menu pull-right" role="menu" style="text-align: left;">
+        %for routename, desc in auth_links:
+      
+            %if is_allowed(request, routename):
+                <li><a href="${request.route_url(routename)}">${desc}</a></li>
+            %endif
+        %endfor
+    </ul>
+	
+  <br />
   
-  
-  
-  
-  
+</div>
+
 
 </%def>
 <%def name="footer()">

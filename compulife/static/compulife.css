@@ -1,11 +1,7 @@
 * {
-  font-family: cursive;
-  
-  
+  font-size: 12pt;
 }
-body{
-  font-size: 16pt;
-}
+
 
 .panel-grey > .panel-heading {
   background-image: -webkit-linear-gradient(top, #3D3838 0%, #161414 100%);
@@ -84,6 +80,7 @@ p > .heading_description{
 .heading{
   font-size: 30px;
   color:#262424;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .greenwell {
