@@ -1,8 +1,63 @@
 <%inherit file="base.mako"/>
+<%!
 
+skills = [
+    {
+        'title': 'Web Development',
+        'sections': [
+            {
+                'title': 'General',
+                'class': 'success',
+                'items': ['HTML/XHTML', 'XML', 'CSS', 'Bootstrap (CSS Framework)']
+            },
+            {
+                'title': 'Client Side Programming',
+                'class': 'default',
+                'items': ['Javascript', 'JQuery', 'Dojo', 'VBScript']
+            },
+            {
+                'title': 'Server Side Programming Languages',
+                'class': 'danger',
+                'items': ['PHP', 'ASP', 'Python', 'Ruby']
+            },
+            {
+                'title': 'Python Web Frameworks',
+                'class': 'info',
+                'items': ['Django', 'PyCK', 'Pyramid', 'Pylons', 'TurboGears 2', 'Flask', 'Bottle', 'Google App Engine']
+            },
+            {
+                'title': 'PHP Web Frameworks',
+                'class': 'default',
+                'items': ['Yii', 'Symfony 2']
+            },
+            {
+                'title': 'Templating Languages',
+                'class': 'warning',
+                'items': ['Mako (Python)', 'Jinja2 (Python)', 'Smarty (PHP)', 'Cheetah (PHP)']
+            },
+            {
+                'title': 'Other Web Related Technologies',
+                'class': 'info',
+                'items': ['Pyjamas (All python web/desktop UI development framework)',
+                          'ToscaWidgets 2 (Widget library useable with python web frameworks)']
+            },
+        ]
+    },
+    {
+        'title': 'Programming Languages',
+        'items': [
+            {'title': 'Python', 'class': 'info'},
+            {'title': 'C/C++', 'class': 'default'},
+            {'title': 'Ruby', 'class': 'danger'},
+            
+                ]
+    },
+]
+
+%>
 
 <%def name="title()">
-CompuLife - Services we offer
+CompuLife - Profile - Kashif Iftikhar
 </%def>
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
@@ -17,28 +72,28 @@ CompuLife - Services we offer
                     <h1>Skills</h1>
            </div>
             <div class="panel-body">
-            <h1 class="side_heading">Web Development</h1>
-                 <ul class="list-group">
-                    <li class="list-group-item">PHP</li>
-                    <li class="list-group-item">ASP</li>
-                    <li class="list-group-item">HTML/XHTML</li>
-                    <li class="list-group-item">Javascript &amp; VBScript &amp; VBA</li>
-                    <li class="list-group-item">Django (framework)</li>
-                    <li class="list-group-item">Pylons (framework)</li>
-                    <li class="list-group-item">TurboGears (framework)</li>
-                    <li class="list-group-item">Bottle (Python micro-webframework</li>
-                    <li class="list-group-item">Google AppEngine</li>
-                    <li class="list-group-item">Mako (Templating Language)</li>
-                    <li class="list-group-item">Cheetah (Templating Language)</li>
-                    <li class="list-group-item">Smarty (Templating Language)</li>
-                    <li class="list-group-item">Dojo (Javascript Library and Framework)</li>
-                    <li class="list-group-item">Pyjamas (All python web/desktop UI development framework)</li>
-                    <li class="list-group-item">ToscaWidgets 2 (Widget library useable with python web frameworks)</li>
-                </ul>
+                %for skill in skills:
+                    <div class="well well-sm">
+                        <button class="btn btn-primary btn-block">${skill['title']}</button><br />
+                        %if 'sections' in skill:
+                            %for skill_section in skill['sections']:
+                                <h3 class="text-${skill_section['class']}">${skill_section['title']}</h3>
+                                
+                                %for skill_item in skill_section['items']:
+                                    <span class="pill_item label-${skill_section['class']}">${skill_item}</span>
+                                %endfor
+                                <br />
+                            %endfor
+                        %else:
+                            %for skill_item in skill['items']:
+                                <span class="pill_item label-${skill_item['class']}">${skill_item['title']}</span>
+                            %endfor
+                        %endif
+                        
+                    </div>
+                %endfor
+
             
-            </div>
-            
-            <div class="panel-body">
             <a name="PL"></a>
             <h1 class="side_heading">Programming Languages</h1>
                 <ul class="list-group">
@@ -345,7 +400,7 @@ CompuLife - Services we offer
 		<div class="panel-heading"><h1 class="side_heading">Navigate</h1></div>
         <div class="panel-body">
             <ul class="list-group">
-                <li class="list-group-item"><a href="#skills">SKills</a></li>
+                <li class="list-group-item"><a href="#skills">Skills</a></li>
                 <ul>
                 <li><a href="#PL">Programming Languages</a></li>
                 <li><a href="#DBR">Databases &amp; Related </a></li>
