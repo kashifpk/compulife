@@ -38,8 +38,8 @@ skills = [
             {
                 'title': 'Other Web Related Technologies',
                 'class': 'info',
-                'items': ['Pyjamas (All python web/desktop UI development framework)',
-                          'ToscaWidgets 2 (Widget library useable with python web frameworks)']
+                'items': ['Pyjamas <br />(All python web/desktop UI development framework)',
+                          'ToscaWidgets 2 <br />(Widget library useable with python web frameworks)']
             },
         ]
     },
@@ -80,13 +80,13 @@ CompuLife - Profile - Kashif Iftikhar
                                 <h3 class="text-${skill_section['class']}">${skill_section['title']}</h3>
                                 
                                 %for skill_item in skill_section['items']:
-                                    <span class="pill_item label-${skill_section['class']}">${skill_item}</span>
+                                    <span class="pill_item label-${skill_section['class']}">${skill_item|n}</span>
                                 %endfor
                                 <br />
                             %endfor
                         %else:
                             %for skill_item in skill['items']:
-                                <span class="pill_item label-${skill_item['class']}">${skill_item['title']}</span>
+                                <span class="pill_item label-${skill_item['class']}">${skill_item['title']|n}</span>
                             %endfor
                         %endif
                         
