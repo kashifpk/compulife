@@ -13,7 +13,7 @@ skills = [
         'sections': [
             {
                 'title': 'General',
-                'class': 'success',
+                'class': 'default',
                 'items': ['HTML/XHTML', 'XML', 'CSS', 'Bootstrap (CSS Framework)']
             },
             {
@@ -23,12 +23,12 @@ skills = [
             },
             {
                 'title': 'Server Side Programming Languages',
-                'class': 'danger',
+                'class': 'default',
                 'items': ['PHP', 'ASP', 'Python', 'Ruby']
             },
             {
                 'title': 'Python Web Frameworks',
-                'class': 'info',
+                'class': 'default',
                 'items': ['Django', 'PyCK', 'Pyramid', 'Pylons', 'TurboGears 2', 'Flask', 'Bottle', 'Google App Engine']
             },
             {
@@ -38,12 +38,12 @@ skills = [
             },
             {
                 'title': 'Templating Languages',
-                'class': 'warning',
+                'class': 'default',
                 'items': ['Mako (Python)', 'Jinja2 (Python)', 'Smarty (PHP)', 'Cheetah (PHP)']
             },
             {
                 'title': 'Other Web Related Technologies',
-                'class': 'info',
+                'class': 'default',
                 'items': ['Pyjamas', 'ToscaWidgets 2']
             },
         ]

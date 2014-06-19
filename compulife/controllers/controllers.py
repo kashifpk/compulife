@@ -43,6 +43,16 @@ def pyutill(request):
     return {}
 
 
+@view_config(route_name='oss_pyck', renderer='pyck.mako')
+def pyck(request):
+    return {}
+
+
+@view_config(route_name='oss_wtdojo', renderer='wtdojo.mako')
+def wt(request):
+    return {}
+
+
 @view_config(route_name='people_kashif', renderer='people_kashif.mako')
 def people_k(request):
     return {}
