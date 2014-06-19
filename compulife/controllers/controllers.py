@@ -28,17 +28,17 @@ def people_peeps(request):
     return {}
 
 
-@view_config(route_name='dns_ng', renderer='dns_ng.mako')
+@view_config(route_name='oss_dns_ng', renderer='dns_ng.mako')
 def dns(request):
     return {}
 
 
-@view_config(route_name='android_sms', renderer='android_sms.mako')
+@view_config(route_name='oss_android_sms', renderer='android_sms.mako')
 def android_sms(request):
     return {}
 
 
-@view_config(route_name='pyutills', renderer='pyutills.mako')
+@view_config(route_name='oss_pyutills', renderer='pyutills.mako')
 def pyutill(request):
     return {}
 

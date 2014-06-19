@@ -1,5 +1,11 @@
 <%inherit file="base.mako"/>
 <%!
+def tech_tags(*tags):
+    ret = ""
+    for tag in tags:
+        ret += '<span class="pill_item label-default">%s</span> ' % tag
+    
+    return ret
 
 skills = [
     {
@@ -38,8 +44,7 @@ skills = [
             {
                 'title': 'Other Web Related Technologies',
                 'class': 'info',
-                'items': ['Pyjamas <br />(All python web/desktop UI development framework)',
-                          'ToscaWidgets 2 <br />(Widget library useable with python web frameworks)']
+                'items': ['Pyjamas', 'ToscaWidgets 2']
             },
         ]
     },
@@ -55,8 +60,7 @@ skills = [
             {'title': 'XML', 'class': 'default'},
             {'title': 'SGML', 'class': 'warning'},
             {'title': 'UML', 'class': 'success'},
-            
-                ]
+        ]
     },
     {
         'title': 'DataBases & Related',
@@ -70,48 +74,106 @@ skills = [
             {'title': 'FoxPro', 'class': 'default'},
             {'title': 'MS Access', 'class': 'warning'},
             {'title': 'DBase', 'class': 'success'},
-            
-                ]
+        ]
+    },
+    {
+        'title': 'NoSQL',
+        'items': [
+            {'title': 'MongoDB', 'class': 'info'},
+            {'title': 'Google AppEngine DataStore', 'class': 'warning'},
+        ]
+    },
+    {
+        'title': 'Cloud Platforms',
+        'items': [
+            {'title': 'Amazon EC2', 'class': 'info'},
+            {'title': 'Google AppEngine', 'class': 'warning'},
+            {'title': 'Heroku', 'class': 'success'},
+            {'title': 'Dotcloud', 'class': 'default'},
+        ]
+    },
+    {
+        'title': 'Mobile and Web Reporting APIs',
+        'items': [
+            {'title': 'Mixpanel', 'class': 'info'},
+            {'title': 'Mobile App Tracking (MAT)', 'class': 'warning'},
+            {'title': 'Grow Mobile', 'class': 'success'},
+            {'title': 'Ad-X', 'class': 'default'},
+        ]
     },
     {
         'title': 'Mobile Development',
         'items': [
-            {'title': 'PyS60 (Python for Symbian Series 60 Devices)', 'class': 'info'},
-            {'title': 'PySide/PyQT (For new Nokia Linux phones like N900 with Maemo or Meego OS)', 'class': 'default'},
-            {'title': 'SL4A (Scripting Layer for Android)', 'class': 'danger'},
-            
-                ]
+            {'title': 'Kivy', 'class': 'info'},
+            {'title': 'PySide/PyQT', 'class': 'default'},
+            {'title': 'PyS60', 'class': 'warning'},
+            {'title': 'SL4A', 'class': 'success'},
+        ]
     },
     {
-        'title': 'Operating System',
-        'items': [
-            {'title': 'Linux/Unix (Redhat, Fedora, Slackware, Debian, Ubuntu, Kubuntu & many other derived distros) ', 'class': 'success'},
-            {'title': 'FreeBSD', 'class': 'default'},
-            {'title': 'Microsoft Windows (3.x, 9x, 2000, XP, 2003, Vista', 'class': 'warning'},
-            
-                ]
+        'title': 'Operating Systems',
+        'sections': [
+            {
+                'title': 'Linux',
+                'class': 'danger',
+                'items': ['Redhat', 'Debian', 'Ubuntu', 'Slackware', 'Mint', 'IPCop', 'Raspbian', 'Kubuntu', 'Gentoo', 'Salix']
+            },
+            {
+                'title': 'Unix',
+                'class': 'default',
+                'items': ['FreeBSD']
+            },
+            {
+                'title': 'Windows',
+                'class': 'warning',
+                'items': ["Windows 8", "Windows 7", "Windows Vista", "Windows 2000", "Windows XP", "Windows 9.x", "Windows 3.x"]
+            },  
+        ]
     },
-        {
+    {
         'title': 'Project Management Related',
-        'items': [
-            {'title': 'Source Code Control Systems (Subversion, Mercurial, Git) with exprience in working with and managing distributed source code repositories', 'class': 'info'},
-            {'title': 'Documentation Tools - Sphinx (Documentation generation using reStructuredText)', 'class': 'danger'},
-            {'title': 'Automated Testing using webtest, unittest and nose', 'class': 'info'},
-            
-                ]
+        'sections': [
+            {
+                'title': 'Version Control',
+                'class': 'success',
+                'items': ['GIT', 'Subversion', 'Mercurial']
+            },
+            {
+                'title': 'Documentation Tools',
+                'class': 'default',
+                'items': ['reST', 'Sphinx', 'PyDoc']
+            },
+            {
+                'title': 'Automated Testing',
+                'class': 'danger',
+                'items': ["Python's UnitTest", 'Nose (Python)', 'webtest (python)', 'phpUnit (PHP)']
+            },  
+        ]
     },
     {
-        'title': 'Networking & Administration',
+        'title': 'Linux Networking & Administration',
         'items': [
-            {'title': 'Linux Installation, configuration and Networking setup', 'class': 'success'},
-            {'title': 'Linux VPN setups', 'class': 'default'},
-            {'title': 'Linux administration including services like DNS, DHCP, HTTP, FTP, SSH and others', 'class': 'warning'},
-            {'title': 'Linux Based Firewall and IDS configuration', 'class': 'success'},
+            {'title': 'Linux Installation', 'class': 'success'},
+            {'title': 'Linux Networking', 'class': 'success'},
+            {'title': 'Linux VPN setup', 'class': 'danger'},
+            {'title': 'Linux Administration', 'class': 'warning'},
+            {'title': 'Linux Based Firewalls', 'class': 'success'},
+            {'title': 'Linux Based IDS', 'class': 'success'},
+            {'title': 'Apache', 'class': 'default'},
+            {'title': 'Samba', 'class': 'default'},
+            {'title': 'Squid', 'class': 'default'},
+            {'title': 'DNS', 'class': 'default'},
+            {'title': 'DHCP', 'class': 'default'},
+            {'title': 'FTP', 'class': 'default'},
+            {'title': 'SSH', 'class': 'default'},
             {'title': 'Security Assessment', 'class': 'info'},
-            {'title': 'Apache Web Server', 'class': 'default'},
-            {'title': 'Samaba File and Print Sharing Server for Linux', 'class': 'warning'},
-            {'title': 'Squid Web Proxy Cache', 'class': 'success'},
-                ]
+        ]
+    },
+    {
+        'title': 'Uncategorized',
+        'items': [
+            {'title': 'Celery (Distributed Task Queue)', 'class': 'success'},
+        ]
     },
 ]
 
@@ -135,19 +197,21 @@ CompuLife - Profile - Kashif Iftikhar
             <div class="panel-body">
                 %for skill in skills:
                     <div class="well well-sm">
-                        <button class="btn btn-primary btn-block">${skill['title']}</button><br />
+                        <button class="btn btn-primary btn-block" style="font-weight: bold;">${skill['title']}</button><br />
                         %if 'sections' in skill:
                             %for skill_section in skill['sections']:
-                                <h3 class="text-${skill_section['class']}">${skill_section['title']}</h3>
-                                
+                                ##<h3 class="text-${skill_section['class']}">${skill_section['title']}</h3>
+                                <h3 class="text-default">${skill_section['title']}</h3>
                                 %for skill_item in skill_section['items']:
-                                    <span class="pill_item label-${skill_section['class']}">${skill_item|n}</span>
+                                    ##<span class="pill_item label-${skill_section['class']}">${skill_item|n}</span>
+                                    <span class="pill_item label-default">${skill_item|n}</span>
                                 %endfor
                                 <br />
                             %endfor
                         %else:
                             %for skill_item in skill['items']:
-                                <span class="pill_item label-${skill_item['class']}">${skill_item['title']|n}</span>
+                                ##<span class="pill_item label-${skill_item['class']}">${skill_item['title']|n}</span>
+                                <span class="pill_item label-default">${skill_item['title']|n}</span>
                             %endfor
                         %endif
                         
@@ -196,62 +260,70 @@ CompuLife - Profile - Kashif Iftikhar
             <a name="EP"></a>
             <h1>Experience &amp; Projects</h1></div>
             <div class="panel-body">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                    
-                <strong>Pakistan Army Induction System</strong>. Developed and still maintaining online-registration and computerzied induction system for Pakistan Army for Officers Exams (PMA, Graduate Courses). NADRA previously conducted these tests for Pakistan Army. Developed using LAMPP (Linux, Apache, MySQL, PHP &mp; Python).
+            <ul class="list-group">
+                        
+                <li class="list-group-item">
+                <strong>PyCK Framework</strong>. Creator of PyCK web framework. ${tech_tags('Python', 'SQLAlchemy', 'Mako', 'WTForms', 'WTDojo')|n}
                 </li>
                 
                 <li class="list-group-item">
-                <strong>Pakistan Army Recruitement System</strong>. Developing online-registration and computerzied recruitement system for Pakistan Army for soldiers' induction. Developed using LAMPP (Linux, Apache, MySQL, PHP &mp; Python).
+                <strong>WTDojo</strong>. Creator of WTDojo forms library that integrates WTForms and Dojo Toolkit. ${tech_tags('Python', 'WTForms', 'Dojo')|n}
+                </li>
+
+                <li class="list-group-item">
+                <strong>Pakistan Army Induction System</strong>. Developed and maintained online-registration and computerzied induction system for Pakistan Army for Officers Exams (PMA, Graduate Courses). NADRA previously conducted these tests for Pakistan Army. ${tech_tags('Linux', 'Apache', 'MySQL', 'PHP', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                <strong>www.joinpakarmy.gov.pk</strong>. Developed and maintaing official web site for joining Pakistan Army. Developed using LAMP (Linux, Apache, MySQL &amp; PHP).
+                <strong>Pakistan Army Recruitement System</strong>. Developing online-registration and computerzied recruitement system for Pakistan Army for soldiers' induction. ${tech_tags('Linux', 'Apache', 'MySQL', 'PHP', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>mawakhaat.appspot.com</strong> Website for flood relief coordination (created after the historical floods in Pakistan in 2010)
+                <strong>www.joinpakarmy.gov.pk</strong>. Developed and maintaing official web site for joining Pakistan Army. ${tech_tags('Linux', 'Apache', 'MySQL', 'PHP', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                <strong>IceRocket Search Spider</strong>. An RSS Feeds web spider that crawls the Internet searching for RSS feeds and populating search DBs of www.icerocket.com. Developed in Python.
+                    <strong>mawakhaat.appspot.com</strong> Website for flood relief coordination (created after the historical floods in Pakistan in 2010). ${tech_tags('Python', 'Google AppEngine')|n}
                 </li>
                 
                 <li class="list-group-item">
-                <strong>Multiple Sites Content Management System</strong>. Web site to manage simple WYSIWYG editting of multiple sites for non-technical website owners. Developed using LAMP (Linux, Apache, MySQL &amp; PHP).
+                <strong>IceRocket Search Spider</strong>. An RSS Feeds web spider that crawls the Internet searching for RSS feeds and populating search DBs of www.icerocket.com. ${tech_tags('Linux', 'MySQL', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                <strong>Tabcrawler</strong>. A music search engine and web spider. Developed using LAMPP (Linux, Apache, MySQL, PHP &mp; Python).
+                <strong>Multiple Sites Content Management System</strong>. Web site to manage simple WYSIWYG editting of multiple sites for non-technical website owners. ${tech_tags('Linux', 'Apache', 'MySQL', 'PHP')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>Lyrics Crawler</strong> Software to scrap song lyrics from popular lyrics sites and then search for their official videos at youtube. Collected lyrics and videos are displayed via customized Wordpress Theme.
+                <strong>Tabcrawler</strong>. A music search engine and web spider${tech_tags('Linux', 'Apache', 'MySQL', 'PHP', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                <strong>Google resume spider</strong>. A php application to fetch and process resumes via google.
+                    <strong>Lyrics Crawler</strong> Software to scrap song lyrics from popular lyrics sites and then search for their official videos at youtube. Collected lyrics and videos are displayed via customized Wordpress Theme. ${tech_tags('Linux', 'MySQL', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>Yahoo Finance scraper</strong> Scraps yahoo finance data for further research.
+                <strong>Google resume spider</strong>. A php application to fetch and process resumes via google. ${tech_tags('PHP')|n}
+                </li>
+                
+                <li class="list-group-item">'
+                    <strong>Yahoo Finance scraper</strong> Scraps yahoo finance data for further research. ${tech_tags('Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>U.S Phone Records scraper</strong> Software to scrap United States phone records alongwith addresses.
+                    <strong>U.S Phone Records scraper</strong> Software to scrap United States phone records alongwith addresses. ${tech_tags('Linux', 'MySQL', 'Python', 'Amazon EC2')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>Twitter scraper</strong> Software to scrap tweets for given person from twitter.
+                    <strong>Twitter scraper</strong> Software to scrap tweets for given person from twitter. ${tech_tags('Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>Tires scraper</strong> Software to scrap automobile tires information for all brands, models and makes from popular auto/tires websites.
+                    <strong>Tires scraper</strong> Software to scrap automobile tires information for all brands, models and makes from popular auto/tires websites. ${tech_tags('Linux', 'Apache', 'MySQL', 'PHP', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
-                    <strong>Demonoid scraper</strong> Software to scrap torrents with associated info from Demonoid.
+                    <strong>Demonoid scraper</strong> Software to scrap torrents with associated info from Demonoid. ${tech_tags('MySQL', 'Python')|n}
                 </li>
                 
                 <li class="list-group-item">
