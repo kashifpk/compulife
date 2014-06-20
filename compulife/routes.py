@@ -12,6 +12,8 @@ def application_routes(config):
     config.add_route('people', '/people')
     config.add_route('oss_dns_ng', '/dns_ng')
     config.add_route('oss_android_sms', '/android_sms')
+    config.add_route('oss_pyck', '/pyck')
+    config.add_route('oss_wtdojo', '/wtdojo')
     config.add_route('oss_pyutills', '/pyutills')
     config.add_route('people_kashif', '/people/kashif_iftikhar')
     config.add_route('people_aliya', '/people/aliya_zafar')

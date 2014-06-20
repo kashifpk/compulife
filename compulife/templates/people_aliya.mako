@@ -7,7 +7,7 @@ skills = [
         'sections': [
             {
                 'title': 'General',
-                'class': 'success',
+                'class': 'default',
                 'items': ['HTML/XHTML', 'XML', 'CSS', 'Bootstrap (CSS Framework)']
             },
             {
@@ -17,12 +17,12 @@ skills = [
             },
             {
                 'title': 'Server Side Programming Languages',
-                'class': 'danger',
+                'class': 'default',
                 'items': ['PHP', 'JSP', 'Python']
             },
             {
                 'title': 'Python Web Frameworks',
-                'class': 'info',
+                'class': 'default',
                 'items': ['PyCK', 'Bottle', 'Google App Engine']
             },
             {
@@ -32,7 +32,7 @@ skills = [
             },
             {
                 'title': 'Templating Languages',
-                'class': 'warning',
+                'class': 'default',
                 'items': ['Mako (Python)', 'Jinja2 (Python)']
             },
             
@@ -41,22 +41,22 @@ skills = [
     {
         'title': 'Programming Languages',
         'items': [
-            {'title': 'Python', 'class': 'info'},
+            {'title': 'Python', 'class': 'default'},
             {'title': 'C/C++', 'class': 'default'},
-             {'title': 'Java', 'class': 'info'},
+             {'title': 'Java', 'class': 'default'},
             
                 ]
     },
     {
         'title': 'DataBases & Related',
         'items': [
-            {'title': 'SQLAlchemy', 'class': 'info'},
+            {'title': 'SQLAlchemy', 'class': 'default'},
             {'title': 'PostgreSQL', 'class': 'default'},
-            {'title': 'MySQL', 'class': 'danger'},
-            {'title': 'SQLite', 'class': 'warning'},
-            {'title': 'SQL Server', 'class': 'success'},
-            {'title': 'Oracle', 'class': 'info'},
-            {'title': 'MS Access', 'class': 'warning'},
+            {'title': 'MySQL', 'class': 'default'},
+            {'title': 'SQLite', 'class': 'default'},
+            {'title': 'SQL Server', 'class': 'default'},
+            {'title': 'Oracle', 'class': 'default'},
+            {'title': 'MS Access', 'class': 'default'},
             
                 ]
     },
@@ -64,15 +64,15 @@ skills = [
     {
         'title': 'Operating System',
         'items': [
-            {'title': 'Linux/Unix ( Ubuntu, Kubuntu ) ', 'class': 'success'},
-            {'title': 'Microsoft Windows (3.x, 9x, 2000, XP, 2003, Vista', 'class': 'warning'},
+            {'title': 'Linux/Unix ( Ubuntu, Kubuntu ) ', 'class': 'default'},
+            {'title': 'Microsoft Windows (3.x, 9x, 2000, XP, 2003, Vista', 'class': 'default'},
             
                 ]
     },
         {
         'title': 'Project Management Related',
         'items': [
-            {'title': 'Source Code Control Systems (Subversion, Mercurial, Git) with exprience in working with and managing distributed source code repositories', 'class': 'info'},
+            {'title': 'Source Code Control Systems (Subversion, Mercurial, Git) with exprience in working with and managing distributed source code repositories', 'class': 'default'},
             
                 ]
     },

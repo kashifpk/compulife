@@ -13,13 +13,16 @@ CompuLife - Services we offer
 	Most of these are small untility libraries or programs that I figured would be useful to others hence the
 	reason for putting them here.
 	</p>
-	
+	</div>
+	<div class="well well-lg">
 	<h1>DNS-NG</h1>
 	<p>
 		DNS-NG is a simplified DNS server that uses a backend DNS server to store DNS records (redirects).
 	For requests that don't have matching records in the DB, it contacts another DNS server to fetch
 	their result.
 	</p>
+	</div>
+	<div class="well well-lg">
 	<p>
 	This script also includes a Qt4 User Interface for managing the DNS server. The DNS server itself
 	is based on the twisted framework and uses sqlalchmey for database ORM.
@@ -28,6 +31,8 @@ CompuLife - Services we offer
 		https://github.com/kashifpk/DNS-NG
 	</a>
 	</p>
+	</div>
+	<div class="well well-lg">
 	<h1>Android SMS Exporter</h1>
 	<p>
 	Small script aimed to run on an android phone with
