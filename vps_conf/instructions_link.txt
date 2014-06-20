@@ -1,0 +1,1 @@
+http://pyramid-cookbook.readthedocs.org/en/latest/deployment/nginx.html
