@@ -21,8 +21,7 @@ CompuLife - Services we offer
 	For requests that don't have matching records in the DB, it contacts another DNS server to fetch
 	their result.
 	</p>
-	</div>
-	<div class="well well-lg">
+
 	<p>
 	This script also includes a Qt4 User Interface for managing the DNS server. The DNS server itself
 	is based on the twisted framework and uses sqlalchmey for database ORM.
@@ -45,6 +44,47 @@ CompuLife - Services we offer
 		https://github.com/kashifpk/android_sms_exporter
 	</a>
 	</p>
+	</div>
+	<div class="well well-lg">
+	<h1>PyCk</h1>
+	<p>
+	PyCK (Python Code Karigar) is be a web development framework aiming to provide an easy to use yet powerful and flexible web framework for python developers.</p>
+<p>PyCK is an "opinionated" web framework based on Pyramid that makes choices of ORM (SQLAlchemy), Templates(Mako) etc and aims at building more reusable componenets on top of these choices.
+</p>
+	 This script can be downloaded
+	from here or at the git repository at:
+	<a href="https://github.com/kashifpk/PyCK">
+		https://github.com/kashifpk/PyCK
+	</a>
+	</p>
+	</div>
+	<div class="well well-lg">
+	<h1>WTDojo</h1>
+	<p>
+	wtdojo (WTForms with Dojo) is a python library that allows using WTForms with Dojo toolkit’s Dijit widget set.
+	Documentation for the project can be found at WTDojo Documentation<a href="https://pythonhosted.org/wtdojo/README.html"></a>
+	 This script can be downloaded
+	from here or at the git repository at:
+	<a href="https://github.com/kashifpk/wtdojo">
+		https://github.com/kashifpk/wtdojo
+	</a>
+	</p>
+	<table class="table">
+		<tr>
+			<tr>
+			<td>PyPi</td>
+			<td><a href="https://pypi.python.org/pypi/wtdojo">https://pypi.python.org/pypi/wtdojo</a></td>
+			</tr>
+			<tr>
+			<td>GitHub</td>
+			<td><a href="https://github.com/kashifpk/wtdojo">https://github.com/kashifpk/wtdojo</a></td>
+			</tr>
+			<tr>
+			<td>Docs</td>
+			<td><a href="http://pythonhosted.org/wtdojo">http://pythonhosted.org/wtdojo</a></td>
+			</tr>
+		</tr>
+	</table>
 	</div>
 </div>
 

@@ -115,7 +115,7 @@ skills = [
         'sections': [
             {
                 'title': 'Linux',
-                'class': 'danger',
+                'class': 'default',
                 'items': ['Redhat', 'Debian', 'Ubuntu', 'Slackware', 'Mint', 'IPCop', 'Raspbian', 'Kubuntu', 'Gentoo', 'Salix']
             },
             {
@@ -125,7 +125,7 @@ skills = [
             },
             {
                 'title': 'Windows',
-                'class': 'warning',
+                'class': 'default',
                 'items': ["Windows 8", "Windows 7", "Windows Vista", "Windows 2000", "Windows XP", "Windows 9.x", "Windows 3.x"]
             },  
         ]
@@ -135,7 +135,7 @@ skills = [
         'sections': [
             {
                 'title': 'Version Control',
-                'class': 'success',
+                'class': 'default',
                 'items': ['GIT', 'Subversion', 'Mercurial']
             },
             {

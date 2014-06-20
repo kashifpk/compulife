@@ -62,21 +62,30 @@ skills = [
     },
 
     {
-        'title': 'Operating System',
-        'items': [
-            {'title': 'Linux/Unix ( Ubuntu, Kubuntu ) ', 'class': 'default'},
-            {'title': 'Microsoft Windows (3.x, 9x, 2000, XP, 2003, Vista', 'class': 'default'},
-            
-                ]
+        'title': 'Operating Systems',
+        'sections': [
+            {
+                'title': 'Linux',
+                'class': 'default',
+                'items': ['Ubuntu','Kubuntu', 'Ubuntu']
+            },
+            {
+                'title': 'Windows',
+                'class': 'default',
+                'items': ["Windows 8", "Windows 7", "Windows Vista", "Windows 2000", "Windows XP", "Windows 8.1", "Windows98"]
+            },  
+        ]
     },
-        {
+    {
         'title': 'Project Management Related',
-        'items': [
-            {'title': 'Source Code Control Systems (Subversion, Mercurial, Git) with exprience in working with and managing distributed source code repositories', 'class': 'default'},
-            
-                ]
+        'sections': [
+            {
+                'title': 'Version Control',
+                'class': 'default',
+                'items': ['GIT']
+            }, 
+        ]
     },
-
 ]
 
 %>
