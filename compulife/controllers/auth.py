@@ -204,7 +204,10 @@ def login(request):
 
 @view_config(route_name='pyckauth_logout')
 def logout(request):
-    del request.session['logged_in_user']
-    del request.session['auth_user_permissions']
+    if 'logged_in_user' in request.session:
+        del request.session['logged_in_user']
+
+    if 'auth_user_permissions' in request.session:
+        del request.session['auth_user_permissions']
 
     return HTTPFound(location=request.route_url('home'))
