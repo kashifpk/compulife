@@ -28,22 +28,7 @@ CompuLife - Services we offer
 		https://github.com/kashifpk/PyCK
 	</a>
 	</p>
-		<table class="table">
-		<tr>
-			<tr>
-			<td>PyPi</td>
-			<td><a href="https://pypi.python.org/pypi/PyCK/0.9z">https://pypi.python.org/pypi/PyCK/0.9z</a></td>
-			</tr>
-			<tr>
-			<td>GitHub</td>
-			<td><a href="https://github.com/kashifpk/PyCK">https://github.com/kashifpk/PyCK</a></td>
-			</tr>
-			<tr>
-			<td>Docs</td>
-			<td><a href="http://pythonhosted.org/PyCK/">http://pythonhosted.org/PyCK/</a></td>
-			</tr>
-		</tr>
-	</table>
+
 	</div>
 
 	<div class="well well-lg">
@@ -89,22 +74,7 @@ CompuLife - Services we offer
 		https://github.com/kashifpk/wtdojo
 	</a>
 	</p>
-	<table class="table">
-		<tr>
-			<tr>
-			<td>PyPi</td>
-			<td><a href="https://pypi.python.org/pypi/wtdojo">https://pypi.python.org/pypi/wtdojo</a></td>
-			</tr>
-			<tr>
-			<td>GitHub</td>
-			<td><a href="https://github.com/kashifpk/wtdojo">https://github.com/kashifpk/wtdojo</a></td>
-			</tr>
-			<tr>
-			<td>Docs</td>
-			<td><a href="http://pythonhosted.org/wtdojo">http://pythonhosted.org/wtdojo</a></td>
-			</tr>
-		</tr>
-	</table>
+	
 	</div>
 	
 	

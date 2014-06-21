@@ -23,6 +23,25 @@ If you want to contribute to the code, the git repository is at:<br />
 <br />
 <a href="https://github.com/kashifpk/wtdojo">https://github.com/kashifpk/wtdojo</a>
 <br />
+<p>
+<table class="table">
+    
+		<tr>
+			<tr>
+			<td>PyPi</td>
+			<td><a href="https://pypi.python.org/pypi/wtdojo">https://pypi.python.org/pypi/wtdojo</a></td>
+			</tr>
+			<tr>
+			<td>GitHub</td>
+			<td><a href="https://github.com/kashifpk/wtdojo">https://github.com/kashifpk/wtdojo</a></td>
+			</tr>
+			<tr>
+			<td>Docs</td>
+			<td><a href="http://pythonhosted.org/wtdojo">http://pythonhosted.org/wtdojo</a></td>
+			</tr>
+		</tr>
+	</table>
+</p>
 </div>
 </div>
 ${OSL.oss_side_links()}
