@@ -57,6 +57,22 @@ CompuLife - Services we offer
 		https://github.com/kashifpk/PyCK
 	</a>
 	</p>
+		<table class="table">
+		<tr>
+			<tr>
+			<td>PyPi</td>
+			<td><a href="https://pypi.python.org/pypi/PyCK/0.9z">https://pypi.python.org/pypi/PyCK/0.9z</a></td>
+			</tr>
+			<tr>
+			<td>GitHub</td>
+			<td><a href="https://github.com/kashifpk/PyCK">https://github.com/kashifpk/PyCK</a></td>
+			</tr>
+			<tr>
+			<td>Docs</td>
+			<td><a href="http://pythonhosted.org/PyCK/">http://pythonhosted.org/PyCK/</a></td>
+			</tr>
+		</tr>
+	</table>
 	</div>
 	<div class="well well-lg">
 	<h1>WTDojo</h1>

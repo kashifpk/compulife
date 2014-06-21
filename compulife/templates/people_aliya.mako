@@ -1,5 +1,11 @@
 <%inherit file="base.mako"/>
 <%!
+def tech_tags(*tags):
+    ret = ""
+    for tag in tags:
+        ret += '<span class="pill_item label-default">%s</span> ' % tag
+    
+    return ret
 
 skills = [
     {
@@ -7,86 +13,58 @@ skills = [
         'sections': [
             {
                 'title': 'General',
-                'class': 'default',
                 'items': ['HTML/XHTML', 'XML', 'CSS', 'Bootstrap (CSS Framework)']
             },
             {
                 'title': 'Client Side Programming',
-                'class': 'default',
                 'items': ['Javascript', 'JQuery']
             },
             {
                 'title': 'Server Side Programming Languages',
-                'class': 'default',
-                'items': ['PHP', 'JSP', 'Python']
+                'items': ['PHP', 'ASP', 'Python']
             },
             {
                 'title': 'Python Web Frameworks',
-                'class': 'default',
-                'items': ['PyCK', 'Bottle', 'Google App Engine']
+                'items': ['Django', 'PyCK','Flask', 'Bottle', 'Google App Engine']
             },
             {
                 'title': 'PHP Web Frameworks',
-                'class': 'default',
                 'items': ['Yii']
             },
             {
                 'title': 'Templating Languages',
-                'class': 'default',
                 'items': ['Mako (Python)', 'Jinja2 (Python)']
             },
-            
+           
         ]
     },
     {
         'title': 'Programming Languages',
-        'items': [
-            {'title': 'Python', 'class': 'default'},
-            {'title': 'C/C++', 'class': 'default'},
-             {'title': 'Java', 'class': 'default'},
-            
-                ]
+        'items': ['Python', 'C/C++','Java','JSP']
     },
-    {
+    
+   {
         'title': 'DataBases & Related',
-        'items': [
-            {'title': 'SQLAlchemy', 'class': 'default'},
-            {'title': 'PostgreSQL', 'class': 'default'},
-            {'title': 'MySQL', 'class': 'default'},
-            {'title': 'SQLite', 'class': 'default'},
-            {'title': 'SQL Server', 'class': 'default'},
-            {'title': 'Oracle', 'class': 'default'},
-            {'title': 'MS Access', 'class': 'default'},
-            
-                ]
+        'items': ['SQLAlchemy', 'PostgreSQL', 'MySQL', 'SQLite', 'SQL Server', 'Oracle', 'MS Access', 'DBase']
     },
-
     {
         'title': 'Operating Systems',
         'sections': [
             {
                 'title': 'Linux',
-                'class': 'default',
-                'items': ['Ubuntu','Kubuntu', 'Ubuntu']
+                'items': ['Ubuntu', 'Kubuntu', 'Ubuntu']
             },
+
             {
                 'title': 'Windows',
-                'class': 'default',
-                'items': ["Windows 8", "Windows 7", "Windows Vista", "Windows 2000", "Windows XP", "Windows 8.1", "Windows98"]
+                'items': ["Windows 8", "Windows 7", "Windows Vista", "Windows 2000", "Windows XP", "Windows 9.x", "Windows 3.x"]
             },  
         ]
     },
-    {
-        'title': 'Project Management Related',
-        'sections': [
-            {
-                'title': 'Version Control',
-                'class': 'default',
-                'items': ['GIT']
-            }, 
+    
         ]
-    },
-]
+		
+		
 
 %>
 
@@ -108,23 +86,21 @@ CompuLife - Profile - Aliya Zafar
             <div class="panel-body">
                 %for skill in skills:
                     <div class="well well-sm">
-                        <button class="btn btn-primary btn-block">${skill['title']}</button><br />
+                        <button class="btn btn-primary btn-block" style="font-weight: bold;">${skill['title']}</button><br />
                         %if 'sections' in skill:
                             %for skill_section in skill['sections']:
-                                <h3 class="text-${skill_section['class']}">${skill_section['title']}</h3>
-                                
+                                <h3 class="text-default">${skill_section['title']}</h3>
                                 %for skill_item in skill_section['items']:
-                                    <span class="pill_item label-${skill_section['class']}">${skill_item|n}</span>
+                                    <span class="pill_item label-default">${skill_item|n}</span>
                                 %endfor
                                 <br />
                             %endfor
                         %else:
-                            %for skill_item in skill['items']:
-                                <span class="pill_item label-${skill_item['class']}">${skill_item['title']|n}</span>
+                            %for skill_name in skill['items']:
+                                <span class="pill_item label-default">${skill_name|n}</span>
                             %endfor
                         %endif
-                        
-                    </div>
+						  </div>
                 %endfor
 
 </div>
