@@ -27,7 +27,7 @@ if sys.version_info[:3] < (2, 5, 0):
 
 setup(
     name='compulife',
-    version='0.3',
+    version='0.4',
     description='compulife',
     long_description=README + '\n\n' + CHANGES,
     classifiers=[
