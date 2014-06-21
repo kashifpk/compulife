@@ -13,119 +13,79 @@ skills = [
         'sections': [
             {
                 'title': 'General',
-                'class': 'default',
                 'items': ['HTML/XHTML', 'XML', 'CSS', 'Bootstrap (CSS Framework)']
             },
             {
                 'title': 'Client Side Programming',
-                'class': 'default',
                 'items': ['Javascript', 'JQuery', 'Dojo', 'VBScript']
             },
             {
                 'title': 'Server Side Programming Languages',
-                'class': 'default',
                 'items': ['PHP', 'ASP', 'Python', 'Ruby']
             },
             {
                 'title': 'Python Web Frameworks',
-                'class': 'default',
                 'items': ['Django', 'PyCK', 'Pyramid', 'Pylons', 'TurboGears 2', 'Flask', 'Bottle', 'Google App Engine']
             },
             {
                 'title': 'PHP Web Frameworks',
-                'class': 'default',
                 'items': ['Yii', 'Symfony 2']
             },
             {
                 'title': 'Templating Languages',
-                'class': 'default',
                 'items': ['Mako (Python)', 'Jinja2 (Python)', 'Smarty (PHP)', 'Cheetah (PHP)']
             },
             {
                 'title': 'Other Web Related Technologies',
-                'class': 'default',
                 'items': ['Pyjamas', 'ToscaWidgets 2']
             },
         ]
     },
     {
         'title': 'Programming Languages',
-        'items': [
-            {'title': 'Python', 'class': 'info'},
-            {'title': 'C/C++', 'class': 'default'},
-            {'title': 'Ruby', 'class': 'danger'},
-            {'title': 'Visual Basic', 'class': 'warning'},
-            {'title': 'Gambas', 'class': 'success'},
-            {'title': 'Java', 'class': 'info'},
-            {'title': 'XML', 'class': 'default'},
-            {'title': 'SGML', 'class': 'warning'},
-            {'title': 'UML', 'class': 'success'},
-        ]
+        'items': ['Python', 'C/C++', 'Ruby', 'Visual Basic', 'Gambas', 'Java']
+    },
+    {
+        'title': 'Markup and Other Languages',
+        'items': ['XML', 'SGML', 'UML']
     },
     {
         'title': 'DataBases & Related',
-        'items': [
-            {'title': 'SQLAlchemy', 'class': 'info'},
-            {'title': 'PostgreSQL', 'class': 'default'},
-            {'title': 'MySQL', 'class': 'danger'},
-            {'title': 'SQLite', 'class': 'warning'},
-            {'title': 'SQL Server', 'class': 'success'},
-            {'title': 'Oracle', 'class': 'info'},
-            {'title': 'FoxPro', 'class': 'default'},
-            {'title': 'MS Access', 'class': 'warning'},
-            {'title': 'DBase', 'class': 'success'},
-        ]
+        'items': ['SQLAlchemy', 'PostgreSQL', 'MySQL', 'SQLite', 'SQL Server', 'Oracle', 'FoxPro', 'MS Access', 'DBase']
     },
     {
         'title': 'NoSQL',
-        'items': [
-            {'title': 'MongoDB', 'class': 'info'},
-            {'title': 'Google AppEngine DataStore', 'class': 'warning'},
-        ]
+        'items': ['MongoDB', 'Google AppEngine DataStore']
     },
     {
         'title': 'Cloud Platforms',
-        'items': [
-            {'title': 'Amazon EC2', 'class': 'info'},
-            {'title': 'Google AppEngine', 'class': 'warning'},
-            {'title': 'Heroku', 'class': 'success'},
-            {'title': 'Dotcloud', 'class': 'default'},
-        ]
+        'items': ['Amazon EC2', 'Google AppEngine', 'Heroku', 'DotCloud']
+    },
+    {
+        'title': 'GIS Related',
+        'items': ['QGis', 'PostGis', 'GeoAlchemy']
     },
     {
         'title': 'Mobile and Web Reporting APIs',
-        'items': [
-            {'title': 'Mixpanel', 'class': 'info'},
-            {'title': 'Mobile App Tracking (MAT)', 'class': 'warning'},
-            {'title': 'Grow Mobile', 'class': 'success'},
-            {'title': 'Ad-X', 'class': 'default'},
-        ]
+        'items': ['Mixpanel', 'Mobile App Tracking (MAT)', 'Grow Mobile', 'Ad-X']
     },
     {
         'title': 'Mobile Development',
-        'items': [
-            {'title': 'Kivy', 'class': 'info'},
-            {'title': 'PySide/PyQT', 'class': 'default'},
-            {'title': 'PyS60', 'class': 'warning'},
-            {'title': 'SL4A', 'class': 'success'},
-        ]
+        'items': ['Kivy', 'PySide/PyQT', 'PyS60', 'SL4A']
     },
     {
         'title': 'Operating Systems',
         'sections': [
             {
                 'title': 'Linux',
-                'class': 'default',
                 'items': ['Redhat', 'Debian', 'Ubuntu', 'Slackware', 'Mint', 'IPCop', 'Raspbian', 'Kubuntu', 'Gentoo', 'Salix']
             },
             {
                 'title': 'Unix',
-                'class': 'default',
                 'items': ['FreeBSD']
             },
             {
                 'title': 'Windows',
-                'class': 'default',
                 'items': ["Windows 8", "Windows 7", "Windows Vista", "Windows 2000", "Windows XP", "Windows 9.x", "Windows 3.x"]
             },  
         ]
@@ -135,45 +95,30 @@ skills = [
         'sections': [
             {
                 'title': 'Version Control',
-                'class': 'default',
                 'items': ['GIT', 'Subversion', 'Mercurial']
             },
             {
                 'title': 'Documentation Tools',
-                'class': 'default',
                 'items': ['reST', 'Sphinx', 'PyDoc']
             },
             {
                 'title': 'Automated Testing',
-                'class': 'danger',
                 'items': ["Python's UnitTest", 'Nose (Python)', 'webtest (python)', 'phpUnit (PHP)']
             },  
         ]
     },
     {
         'title': 'Linux Networking & Administration',
-        'items': [
-            {'title': 'Linux Installation', 'class': 'success'},
-            {'title': 'Linux Networking', 'class': 'success'},
-            {'title': 'Linux VPN setup', 'class': 'danger'},
-            {'title': 'Linux Administration', 'class': 'warning'},
-            {'title': 'Linux Based Firewalls', 'class': 'success'},
-            {'title': 'Linux Based IDS', 'class': 'success'},
-            {'title': 'Apache', 'class': 'default'},
-            {'title': 'Samba', 'class': 'default'},
-            {'title': 'Squid', 'class': 'default'},
-            {'title': 'DNS', 'class': 'default'},
-            {'title': 'DHCP', 'class': 'default'},
-            {'title': 'FTP', 'class': 'default'},
-            {'title': 'SSH', 'class': 'default'},
-            {'title': 'Security Assessment', 'class': 'info'},
-        ]
+        'items': ['Linux Installation', 'Linux Networking', 'Linux VPN setup', 'Linux Administration', 'Linux Based Firewalls', \
+                  'Linux Based IDS', 'Apache', 'Samba', 'Squid', 'DNS', 'DHCP', 'FTP', 'SSH']
+    },
+    {
+        'title': 'Security Assessment and Penetration Testing',
+        'items': ['Network Security Assessment', 'Penetration Testing', 'Security Level Reporting', 'Risk Mitigation Strategies']
     },
     {
         'title': 'Uncategorized',
-        'items': [
-            {'title': 'Celery (Distributed Task Queue)', 'class': 'success'},
-        ]
+        'items': ['Celery (Distributed Task Queue)']
     },
 ]
 
@@ -200,18 +145,15 @@ CompuLife - Profile - Kashif Iftikhar
                         <button class="btn btn-primary btn-block" style="font-weight: bold;">${skill['title']}</button><br />
                         %if 'sections' in skill:
                             %for skill_section in skill['sections']:
-                                ##<h3 class="text-${skill_section['class']}">${skill_section['title']}</h3>
                                 <h3 class="text-default">${skill_section['title']}</h3>
                                 %for skill_item in skill_section['items']:
-                                    ##<span class="pill_item label-${skill_section['class']}">${skill_item|n}</span>
                                     <span class="pill_item label-default">${skill_item|n}</span>
                                 %endfor
                                 <br />
                             %endfor
                         %else:
-                            %for skill_item in skill['items']:
-                                ##<span class="pill_item label-${skill_item['class']}">${skill_item['title']|n}</span>
-                                <span class="pill_item label-default">${skill_item['title']|n}</span>
+                            %for skill_name in skill['items']:
+                                <span class="pill_item label-default">${skill_name|n}</span>
                             %endfor
                         %endif
                         

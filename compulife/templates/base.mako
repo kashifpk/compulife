@@ -15,6 +15,7 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
   ${self.head()}
   
   <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="icon" href="${request.static_url('compulife:static/favicon.ico')}" />
   <link rel="shortcut icon" href="${request.static_url('compulife:static/favicon.ico')}" />
   
   <!-- JQuery -->
