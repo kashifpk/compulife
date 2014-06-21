@@ -6,14 +6,46 @@ CompuLife - Services we offer
 </%def>
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
+	
 	<div class="well well-lg">
-	<h1>Open Source Project</h1>
+	<h1>Open Source Projects</h1>
 	<p>	   
 	This page contains the open source libraries and/or projects that I (Kashif Iftikhar) created or work on.
 	Most of these are small untility libraries or programs that I figured would be useful to others hence the
 	reason for putting them here.
 	</p>
 	</div>
+	
+	<div class="well well-lg">
+	<h1>PyCK</h1>
+	<p>
+	PyCK (Python Code Karigar) is be a web development framework aiming to provide an easy to use yet powerful and flexible web framework for python developers.</p>
+<p>PyCK is an "opinionated" web framework based on Pyramid that makes choices of ORM (SQLAlchemy), Templates(Mako) etc and aims at building more reusable componenets on top of these choices.
+</p>
+	 This script can be downloaded
+	from here or at the git repository at:
+	<a href="https://github.com/kashifpk/PyCK">
+		https://github.com/kashifpk/PyCK
+	</a>
+	</p>
+		<table class="table">
+		<tr>
+			<tr>
+			<td>PyPi</td>
+			<td><a href="https://pypi.python.org/pypi/PyCK/0.9z">https://pypi.python.org/pypi/PyCK/0.9z</a></td>
+			</tr>
+			<tr>
+			<td>GitHub</td>
+			<td><a href="https://github.com/kashifpk/PyCK">https://github.com/kashifpk/PyCK</a></td>
+			</tr>
+			<tr>
+			<td>Docs</td>
+			<td><a href="http://pythonhosted.org/PyCK/">http://pythonhosted.org/PyCK/</a></td>
+			</tr>
+		</tr>
+	</table>
+	</div>
+
 	<div class="well well-lg">
 	<h1>DNS-NG</h1>
 	<p>
@@ -45,35 +77,7 @@ CompuLife - Services we offer
 	</a>
 	</p>
 	</div>
-	<div class="well well-lg">
-	<h1>PyCk</h1>
-	<p>
-	PyCK (Python Code Karigar) is be a web development framework aiming to provide an easy to use yet powerful and flexible web framework for python developers.</p>
-<p>PyCK is an "opinionated" web framework based on Pyramid that makes choices of ORM (SQLAlchemy), Templates(Mako) etc and aims at building more reusable componenets on top of these choices.
-</p>
-	 This script can be downloaded
-	from here or at the git repository at:
-	<a href="https://github.com/kashifpk/PyCK">
-		https://github.com/kashifpk/PyCK
-	</a>
-	</p>
-		<table class="table">
-		<tr>
-			<tr>
-			<td>PyPi</td>
-			<td><a href="https://pypi.python.org/pypi/PyCK/0.9z">https://pypi.python.org/pypi/PyCK/0.9z</a></td>
-			</tr>
-			<tr>
-			<td>GitHub</td>
-			<td><a href="https://github.com/kashifpk/PyCK">https://github.com/kashifpk/PyCK</a></td>
-			</tr>
-			<tr>
-			<td>Docs</td>
-			<td><a href="http://pythonhosted.org/PyCK/">http://pythonhosted.org/PyCK/</a></td>
-			</tr>
-		</tr>
-	</table>
-	</div>
+	
 	<div class="well well-lg">
 	<h1>WTDojo</h1>
 	<p>
@@ -102,6 +106,10 @@ CompuLife - Services we offer
 		</tr>
 	</table>
 	</div>
+	
+	
+	
+	
 </div>
 
 ${OSL.oss_side_links()}
