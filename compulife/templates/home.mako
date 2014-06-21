@@ -18,72 +18,91 @@ Compulife
 		<li data-target="#carousel-example-generic" data-slide-to="5"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="6"></li>
 		<li data-target="#carousel-example-generic" data-slide-to="7"></li>
-		<li data-target="#carousel-example-generic" data-slide-to="8"></li>
 	  </ol>
 	  
 	  <!-- Carousel items -->
 	  <div class="carousel-inner">
 		<div class="active item">
-		  
-		  <div>
-			<img src="${request.static_url('compulife:static/sql.png')}"  alt="pyck"/>
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_programming.png')}"  alt="pyck"/>
 		  </div>
 		  <div class="carousel-caption">
-			<h3>Database Experts</h3>
-			<p>Yes we are :-P</p>
+			<h3>Software Development</h3>
+			<p style="float: left;">Software development for diverse scenarios<br />
+			</p>
 		  </div>
-		  
-		  
 		</div>
 		<div class="item">
-		  
-		  <h1>
-			<img src="${request.static_url('compulife:static/python-logo.png')}"  alt="pyck"/><br />
-			
-		  </h1>
-		  
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_mobile.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>Mobile Development</h3>
+			<p style="float: left;">Python based mobile development<br /></p>
+		  </div>
 		</div>
 		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/Android-Logo.png')}"  alt="pyck"/><br />
-		
-		  </h1>
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_distros.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>Linux & Open Source</h3>
+			<p style="float: left;">Linux installation, networking,<br />
+			management and programming
+			</p>
+		  </div>
 		</div>
 		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/linux-logo.png')}"  alt="pyck"/><br />
-		  
-		  </h1>
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_frameworks.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>Web Development</h3>
+			<p style="float: left;">Web development from small sites<br />
+			to large enterprise applications<br /> spanning many servers</p>
+		  </div>
 		</div>
 		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/postgre.png')}"  alt="pyck"/><br />
-		  
-		  </h1>
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_cloud.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>Cloud Based Solutions</h3>
+			<p style="float: left;">Solutions utilizing best cloud technologies
+			</p>
+		  </div>
 		</div>
 		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/qt.png')}"  alt="pyck"/><br />
-		  
-		  </h1>
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_dbs.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>Database Solutions</h3>
+			<p style="float: left;">Ability to launch and maintain<br />
+			large data stores and data-backed projects
+			</p>
+		  </div>
 		</div>
 		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/php-logo.png')}"  alt="pyck"/><br />
-		  
-		  </h1>
+		  <div >
+			<img src="${request.static_url('compulife:static/logos_nosql.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>NoSQL Data Solutions</h3>
+			<p style="float: left;">Projects based on NoSQL databases
+			</p>
+		  </div>
 		</div>
 		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/pylons-positive.png')}"  alt="pyck"/><br />
-		  
-		  </h1>
-		</div>
-		<div class="item">
-		  <h1>
-		  <img src="${request.static_url('compulife:static/media_raspberry_pi.png')}"  alt="pyck"/><br />
-		  
-		  </h1>
+		  <div >
+			<img src="${request.static_url('compulife:static/logo_rpi.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3>Embedded Solutions & Robotics</h3>
+			<p style="float: left;">Embedded linux, robotics and <br />
+			hobby electronic projects based on the Raspberry Pi
+			</p>
+		  </div>
 		</div>
 	  </div>
         
