@@ -6,6 +6,7 @@ from ..models import (
     )
 
 from ..forms import ContactForm
+from ..lib.mailer import email_from_config
 
 
 @view_config(route_name='home', renderer='home.mako')
@@ -65,14 +66,18 @@ def people_a(request):
 
 @view_config(route_name='contact', renderer="contact.mako")
 def contact_form(request):
+    "Display contact form and send email upon submission"
 
-    f = ContactForm(request.POST)   # empty form initializes if not a POST request
+    email_form = ContactForm(request.POST)
 
     if 'POST' == request.method and 'form.submitted' in request.params:
-        if f.validate():
-            #TODO: Do email sending here.
+        if email_form.validate():
+            email_from_config(request.registry.settings,
+                              email_form.email.data,
+                              email_form.subject.data,
+                              email_form.message.data)
 
             request.session.flash("Your message has been sent!")
             return HTTPFound(location=request.route_url('home'))
 
-    return {'contact_form': f}
+    return {'contact_form': email_form}
