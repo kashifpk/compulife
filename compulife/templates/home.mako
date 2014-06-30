@@ -123,11 +123,12 @@ Compulife
   
 </%def>
   <div class="well well-lg">
+   
   <h1>Introduction</h1>
   <p>CompuLife is an I.T solutions company primarily focusing on
     open-source sofware and web development and support.</p>
    <br/>
-   <div class="well well-lg">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
    <h1>About CompuLife</h1>
 	<p>Formed in 1999; we pride ourselves in providing efficient, innovative
     and cost effective solutions to our clients.</p>
@@ -135,7 +136,18 @@ Compulife
 	Our areas of speciality span over software, mobile and web development, networking, administration &amp; computer security. We offer professional
 	services at affordable prices. Our flexible packages adjust to your needs whether it be a small personal website or a vast enterprise presense
 	on the web.</p>
-    
+    <p>
+      We also offer the redesigning of a website, its maintenance, creation of web design blogs, customization of content management systems, domain and hosting solutions, branding, social network development, provide search engine optimization services for the promotion of your website to rank higher when it is searched
+
+You chose compulife as your solution provider because we always provide qualitative work keeping in view our client’s budget.
+
+We have got the most affordable rates in the market to attract our client. We have real passion for web designing and development
+
+Over the past 3 years we are working as a company and we have served our clients as our own family.
+
+    </p>
+  </div>
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
     <h1>What we offer</h1>
 	<p>Web Designing, E-Commerce Solutions, Open Source Solutions and Support, Networking. Following are some of the services we provide:</p>
 	<ul class="list-group">
@@ -157,26 +169,13 @@ Compulife
         <li class="list-group-item">Business to Business, Consumer to Business solutions</li>
         
     </ul>
+    
 		
-	<p>CompuLife has a deep-seeded passion for the new 
-  technologies, which instills the team of CompuLife with excitement, and the 
-  confidence to tailor solutions to meet specific needs of customers who benefit 
-  from our end-to-end capabilities.</p>
-  
-	<p>No matter what business you're in, the solutions to your business are unique, 
-  one-of-a kind. We provide Leading Edge Technology and Best Value Solutions at 
-  highest quality to all our customers.</p>
-  
-  	<p>Everyday we design strategies to make better Web sites, software solution, 
-  network solution and and open source solutions. We believe in constant imporovement in our work. 
-  With each project, we evolve strategies to ensure that your needs are met in an appealing and effective manner. 
-  Design is reflected in everything that contains matter. Nature and the world 
-  around us are replete with examples. From the tiny hummingbird to the tallest 
-  building, design is what fuses function and form. And good design of any kind 
-  presents utility with character. Right from authoring and interface designing, 
-  CompuLife work, projects clarity in thoughts. All that we do are born in purpose 
-  and grown to completion of our client's goals. The unexplored invites, and our 
-  future rely in bringing life to design.</p>
+	
+    </div>
+ 
+      
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   	
 	<h1>How We Work?</h1>
 		
@@ -185,6 +184,7 @@ Compulife
     product our team work with passion and dedication. This makes CompuLife the 
     best place to entertain individuals and companies as well. We believe that 
     "The Digital Heart Beat" never stop.</p>
+      </div>
   
   	<h1>Quality Work</h1>
     <p>Quality at CompuLife is not just an after-thought after the completion of a product. 
@@ -203,7 +203,8 @@ Compulife
     timely project execution carry out project implementation. Our team's concept 
     to respond to the high expectations of our customers shows its dedication and 
     engineering excellence.</p>
-   </div>
+  
+
 
 
 
