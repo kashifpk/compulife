@@ -8,7 +8,7 @@ CompuLife - Services we offer
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
 	
 	<div class="well well-lg">
-	<h1>Open Source Projects</h1>
+	<h1><span class="glyphicon glyphicon-globe"></span>&nbsp;&nbsp;&nbsp;Open Source Projects</h1>
 	<p>	   
 	This page contains the open source libraries and/or projects that I (Kashif Iftikhar) created or work on.
 	Most of these are small untility libraries or programs that I figured would be useful to others hence the

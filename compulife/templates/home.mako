@@ -129,7 +129,7 @@ Compulife
     open-source sofware and web development and support.</p>
    <br/>
   <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-   <h1>About CompuLife</h1>
+   <h1><span class="glyphicon glyphicon-leaf"></span>&nbsp;&nbsp;&nbsp;About CompuLife</h1>
 	<p>Formed in 1999; we pride ourselves in providing efficient, innovative
     and cost effective solutions to our clients.</p>
     <p>We offer a vast array of services ranging from customized software development to long-term support for mission-critical projects.
@@ -148,7 +148,7 @@ Over the past 3 years we are working as a company and we have served our clients
     </p>
   </div>
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-    <h1>What we offer</h1>
+    <h1><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;&nbsp;What we offer</h1>
 	<p>Web Designing, E-Commerce Solutions, Open Source Solutions and Support, Networking. Following are some of the services we provide:</p>
 	<ul class="list-group">
     
@@ -177,7 +177,7 @@ Over the past 3 years we are working as a company and we have served our clients
       
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
   	
-	<h1>How We Work?</h1>
+	<h1><span class="glyphicon glyphicon-wrench"></span>&nbsp;&nbsp;&nbsp;How We Work?</h1>
 		
     <p>We focus on the qualitative and quantitative measures which make our 
     work effective and efficient to achieve goals. To prodcue the best quality 
@@ -186,14 +186,14 @@ Over the past 3 years we are working as a company and we have served our clients
     "The Digital Heart Beat" never stop.</p>
       </div>
   
-  	<h1>Quality Work</h1>
+  	<h1><span class="glyphicon glyphicon-pushpin"></span>&nbsp;&nbsp;&nbsp;Quality Work</h1>
     <p>Quality at CompuLife is not just an after-thought after the completion of a product. 
     Instead, quality is assured right from the designing phases of the project. Quality checks
     are implemented at every phase of the project to ensure things works as intended.
     More over we have maintained internal and external reporting system, which let us communicate with our clients. 
     As a consequence, we can measure that how we are going, what we are doing and what we have to do.</p>
   
-	<h1>CompuLife Team</h1>
+	<h1><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;&nbsp;CompuLife Team</h1>
 	<p>We encourage the use of human imagination in all our dimensions of work. Our 
     staff has a combination of real world business experience and technical ability 
     that we believe gives us a distinct advantage over our competitors. 

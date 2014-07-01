@@ -8,7 +8,7 @@ CompuLife - Services we offer
 
 
     
-   <h1>Our Services</h1>
+   <h1><span class="glyphicon glyphicon-hand-right"></span>&nbsp;&nbsp;&nbsp;Our Services</h1>
    <br/>
 
     <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">

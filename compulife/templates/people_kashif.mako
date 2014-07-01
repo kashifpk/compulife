@@ -130,9 +130,9 @@ CompuLife - Profile - Kashif Iftikhar
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
 
-<div class="well well-lg">
+
 <h1 style="text-align: center ; ">KASHIF IFTIKHAR</h1>
-</div>
+
     <div class="panel panel-grey">
         
            <div class="panel-heading">
