@@ -177,14 +177,29 @@ claro
 </%def>
 <%def name="footer()">
 <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
-    <div class="well well-lg">
-      
-        <p>
-        <a href="http://pyck.compulife.com.pk/">Pyck</a> and 
-        <a href="http://www.python.org">Python</a> Powered.
-        <br />
-         
-    </div>
+    <div class="panel panel-default">
+  <div class="panel-body">
+     <table class="table">
+			  <tr>
+							<td><h1><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;&nbsp;About Compulife</h1><br/>
+										  CompuLife is an I.T solutions company primarily focusing on <br/>
+									   open-source sofware and web development and support.
+							</td>
+							
+			 
+			 
+							<td><h1><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;Contact Us</h1>
+										  abc
+										  123345
+										  rhreh
+							</td>
+			  </tr>
+	 </table>
+  </div>
+  <div class="panel-footer"> © Copyright - Compulife</div>
 </div>
+      
+       
+
 </%def>
 

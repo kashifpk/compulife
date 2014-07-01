@@ -24,6 +24,16 @@ Compulife
 	  <div class="carousel-inner">
 		<div class="active item">
 		  <div >
+			<img src="${request.static_url('compulife:static/compulife_big_logo.png')}"  alt="pyck"/>
+		  </div>
+		  <div class="carousel-caption">
+			<h3></h3>
+			<p style="float: left;"><br />
+			</p>
+		  </div>
+		</div>
+		<div class="item">
+		  <div >
 			<img src="${request.static_url('compulife:static/logos_programming.png')}"  alt="pyck"/>
 		  </div>
 		  <div class="carousel-caption">
