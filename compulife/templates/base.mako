@@ -189,9 +189,7 @@ claro
 			 
 			 
 							<td><h1><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;Contact Us</h1>
-										  abc
-										  123345
-										  rhreh
+										  info@compulife.com.pk
 							</td>
 			  </tr>
 	 </table>
