@@ -6,8 +6,7 @@ import importlib
 PROJECT_NAME = 'compulife'
 project_package = importlib.import_module("compulife")
 
-#from . import app1, app2
-#enabled_apps = [app1, app2]
+from . import visit_counter
 
-enabled_apps = []
+enabled_apps = [visit_counter]
 

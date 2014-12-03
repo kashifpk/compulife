@@ -12,7 +12,6 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
   
   <title>${self.title()}</title>
   ${self.meta()}
-  ${self.head()}
   
   <meta name="viewport" content="width=device-width, user-scalable=no">
   <link rel="icon" href="${request.route_url('favicon')}" />
@@ -47,9 +46,11 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
           });});
   </script>
   
-
-
+  ${self.extra_head()}
 </head>
+
+<%def name="extra_head()">
+</%def>
 
 <body class="${self.body_class()}" ${self.body_attrs()}>
    <div class="container">
@@ -66,8 +67,7 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
 </body>
 </html>
 
-<%def name="head()"></%def>
-<%def name="title()">The PyCK Web Application Development Framework</%def>
+<%def name="title()">CompuLife - The Digital HeartBeat</%def>
 
 <%def name="meta()">
   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
