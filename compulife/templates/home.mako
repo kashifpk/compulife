@@ -146,7 +146,7 @@ Compulife
 	  </script>
 	</div>
   </div>-->
-  
+  <br />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 	  <div class="well well-lg">
@@ -156,7 +156,7 @@ Compulife
 	  </div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-	  <div class="panel">
+	  <div class="panel panel-primary">
         <!-- Default panel contents -->
 		<div class="panel-heading"><h1 class="side_heading">What's New</h1></div>
         <div class="panel-body">
