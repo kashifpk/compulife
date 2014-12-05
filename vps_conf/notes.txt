@@ -1,0 +1,7 @@
+Currently populate script doesn't work with VPS production ini (For nginx) file because that contains [app:compulife] section instead of [app:main], further the additional "pipline" sections also cause issues. For the time being the fix is to change [app:compulife] to ap [app:main] and remove the pipline sections and then run populate and then change back to [app:compulife].
+
+Update: This fix was very simple, just use the format:
+
+compulife_populate vps_conf/vps_prod.ini#compulife
+
+just need to put #application_name after the ini filename.

@@ -15,11 +15,11 @@ requires = [
     'pyramid_tm',
     'pyramid_mako',
     'pyramid_debugtoolbar',
-    'pyramid_handlers',
     'zope.sqlalchemy',
     'waitress',
     'wtforms',
-    'wtdojo'
+    'wtdojo',
+    'webtest',
 ]
 
 if sys.version_info[:3] < (2, 5, 0):
