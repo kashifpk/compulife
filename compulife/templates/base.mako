@@ -154,13 +154,13 @@ claro
 
 <div class="visible-sm visible-xs" style="text-align: center;">
   <img src="${request.static_url('compulife:static/compulife_big_logo.png')}" alt="CompuLife Logo" /><br />
-<!--</div>-->
-<!--<div class="btn-group visible-sm visible-xs">-->
-
-    <button type="button" class="btn btn-default dropdown-toggle pull-right" data-toggle="dropdown">  
-       <span class="glyphicon glyphicon-th" style="font-size: 20pt;"></span>
+  <div class="btn-group" style="width:90%">
+    <button type="button" class="btn btn-default" data-toggle="dropdown" style="width:90%">Navigation</button>
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+      <span class="caret"></span>
+      <span class="sr-only">Toggle Dropdown</span>
     </button>
-    <ul class="dropdown-menu pull-right" role="menu" style="text-align: left;">
+    <ul class="dropdown-menu" role="menu" style="text-align: left; width: 100%;">
         %for routename, desc in auth_links:
       
             %if is_allowed(request, routename):
@@ -168,7 +168,7 @@ claro
             %endif
         %endfor
     </ul>
-	
+  </div>
   <br />
   
 </div>
