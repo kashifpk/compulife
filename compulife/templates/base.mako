@@ -6,6 +6,8 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
 
 %>
 
+<%namespace name="utils" file="_utils.mako" />
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -189,7 +191,8 @@ claro
 			 
 			 
 							<td><h1><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;Contact Us</h1>
-										  info@compulife.com.pk
+                <span id="span_contact"></span>
+								${utils.js_obfuscate('span_contact', 'info@compulife.com.pk')}
 							</td>
 			  </tr>
 	 </table>
