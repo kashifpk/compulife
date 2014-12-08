@@ -2,7 +2,7 @@
 <%namespace name="PSL" file="people_side_links.mako"/>
 
 <%def name="title()">
-CompuLife - Services we offer
+CompuLife - Team
 </%def>
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
