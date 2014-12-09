@@ -1,5 +1,6 @@
 <%inherit file="base.mako"/>
 <%namespace name="PSL" file="people_side_links.mako"/>
+<%namespace name="utils" file="_utils.mako" />
 
 <%def name="title()">
 CompuLife - Team
@@ -16,7 +17,8 @@ CompuLife - Team
    
         <p>
             CEO and main software development architect
-            kashif@compulife.com.pk
+            <span id="contact_kashif"></span>
+            ${utils.js_obfuscate('contact_kashif', 'kashif@compulife.com.pk')}
         </p>
     </div>
 
@@ -29,7 +31,8 @@ CompuLife - Team
         <a href="${request.route_url('people_aliya')}"><h1>Aliya Zafar</h1></a>
         <p>
             Web developer <br/>
-            aliya_zafar14@hotmail.com   
+            <span id="contact_kashif"></span>
+            ${utils.js_obfuscate('contact_aliya', 'aliya_zafar14@hotmail.com')}
         </p>
     </div>
 </div>
