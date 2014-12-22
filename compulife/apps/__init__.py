@@ -6,7 +6,18 @@ import importlib
 PROJECT_NAME = 'compulife'
 project_package = importlib.import_module("compulife")
 
-from . import visit_counter
 
-enabled_apps = [visit_counter]
+def has_app(app_name):
+    "Checks if a given app is available in project's enabled apps"
+
+    for app in enabled_apps:
+        if app_name == app.__name__.split('.')[-1]:
+            return True
+
+    return False
+
+
+from . import visit_counter, geoip
+
+enabled_apps = [visit_counter, geoip]
 
