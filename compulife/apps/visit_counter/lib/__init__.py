@@ -9,6 +9,7 @@ if PY3:
 else:
     from urlparse import urlparse
 
+from .. import project_package
 
 
 def count_visit(request, url=None):
