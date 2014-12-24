@@ -105,6 +105,19 @@ a, a:hover, a:active, a:visited {
   color: #BA3232;
 }
 
+.list-group > a:hover, a:active, a:visited{
+  color: #D3D3D3;
+}
+
+.list-group-item-text {
+  font-size: 10pt;
+  margin-top: 2px;
+}
+
+.list-group-item-heading {
+  margin-bottom: 0px;
+}
+
 div#myCarousel {
   height: 230px;
   margin: auto;

@@ -3,11 +3,11 @@ from sqlalchemy import (
     Integer,
     Unicode,
     UnicodeText,
-    DateTime
+    Date
     )
 
 from . import db, Base
-from datetime import datetime
+from datetime import date
 
 
 # Create your models here.
@@ -19,4 +19,5 @@ class News(Base):
     id = Column(Integer, primary_key=True)
     title = Column(Unicode(200), nullable=False)
     content = Column(UnicodeText, nullable=False)
-    timestamp = Column(DateTime, default=datetime.utcnow)
+    link = Column(Unicode(500))
+    posted_on = Column(Date, default=date.today)

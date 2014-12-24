@@ -149,33 +149,49 @@ Compulife
   <br />
   <div class="row">
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-	  <div class="well well-lg">
+	  <div class="well">
 		<h1>Introduction</h1>
 		<p>CompuLife is an I.T solutions company primarily focusing on
 		  open-source sofware and web development and support.</p>
 	  </div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-	  <div class="panel panel-primary">
-        <!-- Default panel contents -->
-		<div class="panel-heading"><h1 class="side_heading">What's New</h1></div>
-        <div class="panel-body">
-		  <ul>
-            <li>Tools section launch at <a href="http://tools.compulife.com.pk">http://tools.compulife.com.pk</a></li>
-			<li>Site redesign</li>
-		  </ul>
-        </div>
-    </div>
+	  <div class="well">
+      
+		<h1>News</h1><br />
+		
+		<div class="list-group">
+		  %for news_item in news:
+			<a href="${news_item.link|n}" class="list-group-item">
+			  <h4 class="list-group-item-heading">
+				<span class="badge">${news_item.posted_on}</span>
+				${news_item.title|n}
+			  </h4>
+			  <p class="list-group-item-text">${news_item.content|n}</p>
+			</a>	
+		  %endfor
+		  
+<!--        <div class="list-group">-->
+<!--		  <a href="http://tools.compulife.com.pk" class="list-group-item">-->
+<!--			<h4 class="list-group-item-heading">Tools section</h4>-->
+<!--			<p class="list-group-item-text">Tools section launched at <a href="http://tools.compulife.com.pk" style="display: inline;">http://tools.compulife.com.pk</a></p>-->
+<!--		  </a>-->
+<!--		</div>-->
+	  </div>
 	</div>
   </div>
   
+  
+  <!--<div class="row">
+	## TODO: Two column listing of recent blogs that display as one column per row on mobile/small devices
+  </div>-->
+  
     
-
 
 <script type="text/javascript" charset="utf-8">
     
-    require([ 'dojo/query', 'bootstrap/Carousel' ], function(q){
-        q('#myCarousel').carousel();
+    require(['dojo/query', 'bootstrap/Carousel', 'dojo/ready'], function(q){
+        q('#myCarousel').cycle();
     });
 </script>
 

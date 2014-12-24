@@ -2,7 +2,7 @@ from pyramid.view import view_config
 from pyramid.httpexceptions import HTTPFound
 
 from ..models import (
-    db,
+    db, News
     )
 
 from ..forms import ContactForm
@@ -12,9 +12,12 @@ from ..apps.visit_counter import count_visit
 
 @view_config(route_name='home', renderer='home.mako')
 def home_view(request):
+    "Home page"
+
     count_visit(request)
-    one = None
-    return {'one': one, 'project': 'compulife'}
+    news = db.query(News).order_by(News.posted_on.desc()).limit(5)
+
+    return dict(news=news)
 
 
 @view_config(route_name='services', renderer='services.mako')
