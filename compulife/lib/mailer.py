@@ -16,7 +16,7 @@ def email_from_config(settings, email_from, subject, message):
         email_to = settings['email_to']
         send_email(subject, message, email_user, email_pass, email_to, email_from)
 
-    except Exception, exp:
+    except Exception as exp:
         log.error(str(exp))
 
 
