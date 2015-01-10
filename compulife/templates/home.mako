@@ -151,8 +151,20 @@ Compulife
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 	  <div class="well">
 		<h1>Introduction</h1>
-		<p>CompuLife is an I.T solutions company primarily focusing on
-		  open-source sofware and web development and support.</p>
+		<p>CompuLife specializes in open source software solutions. We have a wide range of expertise including but not limited to:</p>
+		<ul>
+		  <li>Web development</li>
+		  <li>Desktop applications</li>
+		  <li>Mobile applications</li>
+		  <li>Distributed solutions</li>
+		  <li>Open source support</li>
+		  <li>Computer security, penetration testing and forensics</li>
+		  <li>Advanced networking solutions</li>
+		  <li>Cloud based deployments</li>
+		  <li>GIS based solutions</li>
+		  <li>Hardware interfacing & home automation</li>
+		  <li>Raspberry Pi based solutions</li>
+		</ul>
 	  </div>
 	</div>
 	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
