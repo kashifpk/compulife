@@ -63,7 +63,7 @@ auth_links = [('home', 'Home'),('services','Services'), ('opensource','Opensourc
 	</div>
     ${self.content_wrapper()}
 	<div class="row">
-		<div class="col-md-12">${self.footer()}</div>
+		${self.footer()}
 	</div>
   </div>
 </body>
@@ -179,23 +179,23 @@ claro
 </%def>
 <%def name="footer()">
 <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
-    <div class="panel panel-default">
+  <div class="panel panel-default">
   <div class="panel-body">
-     <table class="table">
-			  <tr>
-							<td><h1><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;&nbsp;About Compulife</h1><br/>
-										  CompuLife is an I.T solutions company primarily focusing on <br/>
-									   open-source sofware and web development and support.
-							</td>
-							
-			 
-			 
-							<td><h1><span class="glyphicon glyphicon-earphone"></span>&nbsp;&nbsp;&nbsp;Contact Us</h1>
-                <span id="span_contact"></span>
-								${utils.js_obfuscate('span_contact', 'info@compulife.com.pk')}
-							</td>
-			  </tr>
-	 </table>
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+      <h3><span class="glyphicon glyphicon-info-sign"></span>
+        &nbsp;&nbsp;&nbsp; About CompuLife</h3>
+        <p>
+        CompuLife is an I.T solutions company primarily focusing on
+        open-source software, web development and support.
+        </p>
+    </div>
+    <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
+      <h3><span class="glyphicon glyphicon-earphone"></span>
+        &nbsp;&nbsp;&nbsp;Contact Us</h3>
+        <span id="span_contact"></span>
+        ${utils.js_obfuscate('span_contact', 'info@compulife.com.pk')}
+    </div>
+			  
   </div>
   <div class="panel-footer"> © Copyright - Compulife</div>
 </div>
