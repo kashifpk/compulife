@@ -154,9 +154,8 @@ claro
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="visible-sm visible-xs" style="text-align: center;">
-  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}" alt="CompuLife Logo" /><br />
-  <div class="btn-group" style="width:90%">
+<nav class="navbar navbar-default navbar-fixed-top visible-sm visible-xs"  style="text-align: center; margin: 0px; padding: 0px;">
+  <div class="btn-group" style="width:100%">
     <button type="button" class="btn btn-default" data-toggle="dropdown" style="width:90%">Navigation</button>
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
       <span class="caret"></span>
@@ -171,8 +170,10 @@ claro
         %endfor
     </ul>
   </div>
-  <br />
-  
+</nav>
+
+<div class="visible-sm visible-xs" style="text-align: center; padding-top: 50px;">
+  <img src="${request.static_url('compulife:static/compulife_big_logo.png')}" alt="CompuLife Logo" /><br />
 </div>
 
 
