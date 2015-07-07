@@ -79,6 +79,12 @@ def people_a(request):
     return {}
 
 
+@view_config(route_name='people_wahab', renderer='people_wahab.mako')
+def people_w(request):
+    count_visit(request)
+    return {}
+
+
 @view_config(route_name='contact', renderer="contact.mako")
 def contact_form(request):
     "Display contact form and send email upon submission"

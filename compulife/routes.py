@@ -34,6 +34,7 @@ def application_routes(config):
     config.add_route('oss_pyutills', '/pyutills')
     config.add_route('people_kashif', '/people/kashif_iftikhar')
     config.add_route('people_aliya', '/people/aliya_zafar')
+    config.add_route('people_wahab', '/people/muhammad_wahab')
     config.add_route('contact', '/contact')
 
     config.add_route('pyckauth_login', '/login')
