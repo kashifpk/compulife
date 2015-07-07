@@ -1,14 +1,14 @@
 <%def name="search_controls(default_date_from=None, default_date_to=None)">
   <script type="text/javascript">
     function view_details() {
-      require(["dojo/dom", "dojo/date/locale"], function(dom, locale){
-              var date_from = locale.format(dijit.byId('date_from').value, {formatLength: 'full', selector:'date', datePattern:'yyyy-MM-dd'});
+      require(["dojo/dom", "dojo/date/locale", "dijit/registry"], function(dom, locale, registry){
+              var date_from = locale.format(registry.byId('date_from').value, {formatLength: 'full', selector:'date', datePattern:'yyyy-MM-dd'});
               //console.log(date_from);
               
               var url = '/visit_counter/details/' + date_from;
               
               if (dijit.byId('date_to').value) {
-                var date_to = locale.format(dijit.byId('date_to').value, {formatLength: 'full', selector:'date', datePattern:'yyyy-MM-dd'});
+                var date_to = locale.format(registry.byId('date_to').value, {formatLength: 'full', selector:'date', datePattern:'yyyy-MM-dd'});
                 //console.log(date_to);
                 url += '/' + date_to
               }
@@ -18,7 +18,7 @@
     }
   </script>
   
-  <div class="row">
+  <div class="row" id="vc_search_controls">
     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
       <label for="date_from">Start date</label><br />
       <input data-dojo-props="constraints: {}" data-dojo-type="dijit/form/DateTextBox"
