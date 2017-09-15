@@ -194,8 +194,8 @@ claro
     <div class="col-sm-12 col-xs-12 col-md-6 col-lg-6">
       <h3><span class="glyphicon glyphicon-earphone"></span>
         &nbsp;&nbsp;&nbsp;Contact Us</h3>
-        <span id="span_contact"></span>
-        ${utils.js_obfuscate('span_contact', 'info@compulife.com.pk')}
+        <span class="glyphicon glyphicon-envelope" id="span_contact"></span>
+        ${utils.js_obfuscate('span_contact', ' info@compulife.com.pk')}
     </div>
 			  
   </div>

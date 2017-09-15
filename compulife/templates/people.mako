@@ -8,21 +8,39 @@ CompuLife - Team
 
 <div class="col-md-8 col-sm-12 col-lg-8 col-xs-12">
     <div class="well well-lg">
-         <div class="col-xs-6 col-md-3">
-        <a href="#" class="thumbnail">
-        <img src="${request.static_url('compulife:static/photo.jpg')}"  alt="pyck"/>
-        </a>
-   </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="${request.static_url('compulife:static/photo.jpg')}"  alt="pyck"/>
+            </a>
+        </div>
         <a href="${request.route_url('people_kashif')}"><h1>Kashif Iftikhar</h1></a>
    
         <p>
-            CEO and main software development architect
-            <span id="contact_kashif"></span>
-            ${utils.js_obfuscate('contact_kashif', 'kashif@compulife.com.pk')}
+            CEO / Team Lead<br />
+            
+            <span class="glyphicon glyphicon-envelope" id="contact_kashif"></span>
+            ${utils.js_obfuscate('contact_kashif', ' kashif@compulife.com.pk')}
         </p>
     </div>
 
     <div class="well well-lg">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="${request.static_url('compulife:static/nophoto-female.png')}"  alt="pyck"/>
+            </a>
+        </div>
+        <a href="${request.route_url('people_qurat')}"><h1>Qurat-Ul-Ain</h1></a>
+   
+        <p>
+            Junior Developer / Designer<br />
+            <span class="glyphicon glyphicon-envelope" id="contact_qurat"></span>
+            ${utils.js_obfuscate('contact_qurat', ' al.ayyyn@gmail.com')}
+            <br />
+            <a href="${request.static_url('compulife:static/qp/Profile.html')}">View Profile</a>
+            
+        </p>
+    </div>
+    <!--<div class="well well-lg">
     <div class="col-xs-6 col-md-3">
         <a href="#" class="thumbnail">
         <img src="${request.static_url('compulife:static/1.jpg')}"  alt="pyck"/>
@@ -34,9 +52,9 @@ CompuLife - Team
             <span id="contact_kashif"></span>
             ${utils.js_obfuscate('contact_aliya', 'aliya_zafar14@hotmail.com')}
         </p>
-    </div>
+    </div>-->
     
-    <div class="well well-lg">
+    <!--<div class="well well-lg">
     <div class="col-xs-6 col-md-3">
         <a href="#" class="thumbnail">
         <img src="${request.static_url('compulife:static/m_wahab.jpg')}"  alt="pyck"/>
@@ -48,7 +66,7 @@ CompuLife - Team
             <span id="contact_wahab"></span>
             ${utils.js_obfuscate('contact_wahab', 'mwahabinfo@gmail.com')}
         </p>
-    </div>
+    </div>-->
 </div>
 
 ${PSL.people_side_links()}

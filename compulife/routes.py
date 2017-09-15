@@ -20,6 +20,7 @@ def application_routes(config):
     "Routes for the main application, excluding sub-app routes"
 
     config.add_static_view('static', 'static', cache_max_age=3600)
+    config.add_static_view('.well-known', 'well-known', cache_max_age=10)
 
     config.add_route("favicon", "/favicon.ico")
 
@@ -35,6 +36,7 @@ def application_routes(config):
     config.add_route('people_kashif', '/people/kashif_iftikhar')
     config.add_route('people_aliya', '/people/aliya_zafar')
     config.add_route('people_wahab', '/people/muhammad_wahab')
+    config.add_route('people_qurat', '/people/qurat_ul_ain')
     config.add_route('contact', '/contact')
 
     config.add_route('pyckauth_login', '/login')

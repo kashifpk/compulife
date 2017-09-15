@@ -7,7 +7,7 @@
         <div class="panel-body">
             <ul class="list-group">
                 <li class="list-group-item"><a href="${request.route_url('people_kashif')}">Kashif Iftikhar</a></li>
-                <li class="list-group-item"><a href="${request.route_url('people_aliya')}">Aliya Zafar</a></li>
+                <li class="list-group-item"><a href="${request.route_url('people_qurat')}">Qurat Ul Ain</a></li>
             </ul>
         </div>
     </div>

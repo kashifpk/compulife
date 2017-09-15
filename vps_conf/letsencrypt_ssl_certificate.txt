@@ -1,0 +1,36 @@
+Follow instructions at:
+
+https://certbot.eff.org/#ubuntuother-nginx
+
+install certbot in ~/certbot
+
+then go to the folder and run:
+
+sudo ./certbot-auto certonly --webroot -w /home/kashif/compulife_latest -d compulife.com.pk -d www.compulife.com.pk
+
+
+On success we get:
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at
+   /etc/letsencrypt/live/compulife.com.pk/fullchain.pem. Your cert
+   will expire on 2016-10-24. To obtain a new or tweaked version of
+   this certificate in the future, simply run letsencrypt-auto again.
+   To non-interactively renew *all* of your certificates, run
+   "letsencrypt-auto renew"
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+
+
+To renew:
+
+./path/to/certbot-auto renew --quiet --no-self-upgrade
+
+
+In /etc/nginx/sites-available/www.compulife.com.pk, within the server block put the lines:
+
+    listen 443 ssl;
+    ssl_certificate /etc/letsencrypt/live/compulife.com.pk/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/compulife.com.pk/privkey.pem;

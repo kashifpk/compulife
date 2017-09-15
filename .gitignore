@@ -53,3 +53,6 @@ coverage.xml
 docs/_build/
 
 vps_conf/vps_prod.ini
+vps_conf/compulife.ini
+backups/
+
